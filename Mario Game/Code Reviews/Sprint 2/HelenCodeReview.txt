@@ -1,0 +1,35 @@
+﻿Helen Wang
+9/30/2024
+Sprint 2
+BlockObjectClass.cs
+Sanaa Kamau
+20 minutes
+
+Readability
+The method names used are very clear and follow the C# naming conventions. However, I would consider renaming upBlock to 
+ActivateBlock or LiftBlock to clarify what the code is meant to do, since the action "up" could be ambiguous without context. 
+Also, the methods in the interface and class are mostly empty, so I would consider using NotImplemented Exception to indicate 
+if they are or aren't placeholders, or at least put comments to explain the code's intended functionality.
+
+Maintainability
+There are several empty methods in this class and if the methods are meant as placeholders for future implementation, the use of 
+NotImplementedException would be a clear indicator of the method's status. Also, I would consider adding a SpriteBatch parameter 
+to methods like drawBlock to be able to accept graphics-related arguments which would make the method more versatile. 
+
+Helen Wang
+9/30/2024
+Sprint 2
+StarObjectClass.cs
+Sanaa Kamau
+20 minutes
+
+Readability
+The method names such as star, idleState, and collectedState are relatively clear, but I would consider changing the name star
+because it might not effectively communicate the purpose of the method in the class. Also, I would suggest using the alias bool
+instead of Boolean within the code to improve consistency with C# coding conventions.
+
+Maintainability
+The implementation of StarObjectClass is fairly straightforward as it manages two states, idle and collected. To improve 
+maintainability I would include a constructor to initialize the idle and collected states to prevent any unintended behavior 
+if the states are accessed before being initialized. Also, I would consider implementing a method to change the state of collected 
+because aat the moment the code only allows for idle to be set to false which could leave collected in an indeterminate state.

@@ -1,0 +1,18 @@
+﻿Dylan Moore
+12/4/2024
+Sprite 5
+Coin.cs
+Sanaa Kamau
+7~ Minutes
+
+Items -> Coin.cs
+
+Readability: It's a short class, but it makes sense. It makes a new coin at a certain position and
+it exists for a small period of time. There is much more to coins in Mario anyways. It's clear though
+that these coins are from lucky blocks and aren't just sitting around the world.
+
+Maintainability: Since it is such a small class, it wouldn't be hard to make changes. Possibly adding some value to
+distinguish overworld coins versus luckyblock coins. That way the overworld coins exist and only disappear
+when they are interacted with.
+
+All in all Sanaa did a good job.

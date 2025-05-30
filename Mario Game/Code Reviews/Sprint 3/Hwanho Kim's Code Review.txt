@@ -1,0 +1,19 @@
+Hwanho Kim's Code Review
+
+Author of the code review: Hwanho Kim
+Date of the code review: 10/21/2024
+Sprint number: Sprint 3
+Name of the .cs file being reviewed: EnemyMarioInteraction
+Author of the .cs file being reviewed: Michael Francek
+Number of minutes taken to complete the review: 15 Minutes
+Specific comments on what is readable and what is not: 
+Firstly, I thought it is a good code because the lines of codes are not that long for this class.
+For the update class, which is the main method to handle collision between Mario and Enemy, he uses methods in Mario class and Enemy Class.
+This makes the codes simple and readable.
+Implementing methods to change the state of the Enemy and Mario within the enemy and mario classes in advance is optimal way to handle collision I think.
+He efficiently use those methods, and handle the collision successfully.
+However, there is only single situation that can occur by the collision in this class.
+He made enemy be stomped when collision happens.
+I believe it will be the better way if he handled this collision differently depends the different Mario state.
+There is no dead state of Mario even though mario take damage from the enemy.
+

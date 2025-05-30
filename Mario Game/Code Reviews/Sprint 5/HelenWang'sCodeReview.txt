@@ -1,0 +1,24 @@
+Helen Wang
+12/4/2024
+Sprint 5
+LevelTwo.cs
+Arun Ghimire
+30 minutes
+
+Readability
+The class and method names in LevelTwo are pretty clear and descriptive which makes the purpose of the code easy to understand. 
+There are a couple magic strings and hardcoded numbers which could be turned into named constants or enums to improve the readability 
+of the code, and make it easier to make changes to it. The structure of the some of the methods could be improved upon. The UpdateLevel 
+method could break down the single-player and multiplayer logic into separate methods to make it more readable. Also, the DrawLevel method 
+could be made into a single reusable function instead of the repetitive layer-drawing logic it currently has to make the method less 
+cluttered and easier to read.
+
+Maintainability
+The LevelTwo class constructor requires a large number or parameters which could make it harder to initialize and test. A configuration 
+object could be introduced to encapsulate all the parameters and make the initialization simpler. Also, the class uses repetitive logic 
+to initialize and draw layers which could be centralized in a LayerManager class to reduce the clutter and make it easier to make future 
+changes. Another concern is that the class handles level-specific logic and game state management which coould make the class harder to 
+maintain. For example, the class includes logic to handle game states such as the multiplayer and single-player modes which isn't explicitly 
+required by the level itself, and would require more effort to change if the game state logic changes significantly. To change this, the 
+game state management logic could be refactored into a separate GameStateHandler class that determines whether the game is in single-player 
+or multiplayer mode and handle the player state updates, and LevelTwo can focus on level-specific logic.

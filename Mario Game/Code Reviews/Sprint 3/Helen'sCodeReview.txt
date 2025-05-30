@@ -1,0 +1,18 @@
+Helen Wang
+10/21/2024
+Sprint 3
+Fireball.cs
+Michael Francek
+15 minutes
+
+Readability
+The method names used in Fireball are pretty clear and easy to read. Sometimes magic numbers like 2, 200, and 400f are 
+used which could be replaced with constants with more descriptive names like const int HorizontalMovementSpeed = 2. 
+Code structure-wise I think that the Move method could be separated into 2 distinct methods to separate horizontal movement 
+from vertical movement just to make it more readable and maintainable. Instead, having a MoveHorizontally() and 
+a MoveVertically() method might be easier to read.
+
+Maintainability
+Since the Fireball class does multiple things like moving, bouncing, updating, etc. it might be beneficial to break down 
+some of the functionalities into separate classes if the functions get more complex. For example, creating a separate 
+collision handler might be good to have a more indepth collision detection system so that the code is more maintainable. 

@@ -1,0 +1,21 @@
+Name: Sanaa Kamau
+Code to be reviewed: WinBigMario.cs
+Code Author: Dylan Moore
+Sprint 5
+Minutes Taken to complete: ~30The 
+
+Readability:
+Overall, the code is very readable. Dylan uses a limited amount of magical numbers and those that are used are defined along the top
+so that the reader knows what the values are representing. Dylan also managed to keep the class relatively short under 70 lines which is good. Other
+than the constructor, there are 3 methods which all serve relevant uses in drawing, updating and getting the destination of the sprite. The return statement for the getDestination method could be made shorter 
+if I was being nitpicky. 
+
+
+Code Quality: 
+Overall, the code is pretty high quality. It makes use of it's qualititative factors over quantity or extensive lines of code. The variable names, such as the animationTimer and FrameRectangles
+are very descriptive and relevant. All of the methods are also used enough to be necessary but not too much to be redundant or produce "code smells."
+
+Hypothetical Changes: 
+Some values like "0f" could've been preassigned to further limit the use of magic numbers but those are few and far between.
+
+Overall, Dylan did a great job

@@ -1,0 +1,30 @@
+Sprint 5
+Michael Code Review
+12/4/24
+
+CutSceneManager.cs, written by Sanaa
+
+Readability: Method names are simple, succinctly describe what all of them do. While
+the class isn't finished as I write this, the existing code makes it obvious how
+the implementation works. One potential concern is that it relies on player.Move, which
+without knowing the implementation of player, makes the class unpredictable.
+
+Maintainability: Everything is simple and decoupled enough that the class could be reworked to
+"control" other types of objects. Additional methods could be added, or methods could be 
+reworked and it would not affect the class overall too much.
+
+Overall, great job!
+
+
+BlooperStateMachine.cs, written by Dylan
+
+Readability: All classes have clear names that explain their use. Most classes are succinct, but
+the update method is very heavy and the conditional logic is not easy to understand. This method
+might be able to be split among smaller sub methods, that are each called from update.
+
+Maintanability: Aside from the unclear conditional logic, this class seems pretty easy to work
+on. Class is based on other enemy state machines, which also makes this pretty easy to reuse
+for other enemies. Also seems simple enough to add more methods to update or add public methods
+to call elsewhere to add more functionality.
+
+Amazing work!

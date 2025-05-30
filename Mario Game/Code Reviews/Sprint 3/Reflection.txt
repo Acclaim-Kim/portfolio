@@ -1,0 +1,32 @@
+Pixel Plumbers
+Reflection Sprint 3
+Team Overview:
+Overall, throughout the process of working on Sprint3, we've developed and demonstrated a firmer grasp of coding conventions and are better able
+to maneuver through Github which in the past was a major struggle for us. 
+
+Achievements:
+Throughout this sprint, we focused on a multitude of implemention which included collisions; so things like enemy-mario interactions, mario-powerup interactions,block-mario interactions etc.
+We were able to add additonal UI functionality as well as gamepad and mouse controls. We also focused 
+on getting on getting our background up and running as well as working on implementing a camera. We were able to get Mario shooting fireballs as well. 
+
+Challenges:
+We had some difficulty deciding how we were going to frame our many objects for collisions especially with keeping things like run time and code quality in mind. We
+decided to go with creating a generic list of objects with an entity class. Looking into how this could even work was initially a source of stress for us but we were able
+to figure it out in time. Deciding how these objects should interact with eachother logically was challenging especially when objects have some crossover in their interaction.
+It was also challenging to figure out how to develop a grid system for the background objects like the ground, clouds, hills etc and to figure out how to get the camera
+to move along the screen with continuous drawing.We also had some difficulty figuring out how we were going to handle ground collision.
+
+
+Team Dynamics:
+The team worked well together while divying up tasks pretty well. Certain team members refactored areas that they worked on in the previous sprint as well as different 
+areas such as Mario movement and functionality, collisions, ui, gamepad/mousepad controls, background visualse etc. The team did a good job of vocally collaborating and
+keeping teammates posted on what areas they might've needed assistance on as well as being open to helping eachother.
+
+
+Process Improvements:
+The process of merging and Github utilities went a lot smoother than the previous sprint. Moving forward, we will work on divying up tasks earlier on and more explicitly so that 
+there's no confusion on who's working on what. 
+
+Looking Ahead:
+Moving forward, we will work on camera scrolling, ground collisions and resolving any collision glitches that may still remain. We will also think about some more end 
+game things such as what kind of levels we will implement and any special functionality we decide to involve.

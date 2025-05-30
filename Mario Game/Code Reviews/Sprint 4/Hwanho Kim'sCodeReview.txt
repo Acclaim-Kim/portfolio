@@ -1,0 +1,18 @@
+Hwanho Kim
+11/12/24
+Sprint 4
+ToggleFalling.cs
+Senaa Kamau
+15 Minutes
+
+Maintainability
+Basically, this class is maintainable I believe.
+She handles the ground collision with ground class and list of entities.
+Most of the ground collisions were handled by the methods that was already initialized within mario, item or enemy classes.
+Most of the methods were simple and maintainable.
+
+Readability
+This class was readable and easy to understand that what is the purpose of this class.
+There were three cases that this class should handle.
+Each method handles mario falling case, enemy falling case, and item falling case respectively.
+Therefore, the structure of this class was pretty simple and understandable.

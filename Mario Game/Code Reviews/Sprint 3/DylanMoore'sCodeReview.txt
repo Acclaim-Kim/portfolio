@@ -1,0 +1,23 @@
+Dylan Moore
+10/21/2024
+Sprite 3
+Mario.cs
+Arun Ghimire
+25~ Minutes
+
+Mario -> Mario.cs
+
+Readability: It seems pretty straight forward. The class has a MoveRight, MoveLeft, and a SwapDirection method, 
+At first glance this seems counterintuitive but it's to add the turning animation. I feel it could be more compressed
+into one or two methods instead of 3. Maybe passing an int or boolean value for if left and right is pressed to have the
+swap animation. fireballTimer += -1; in update is fine. I just find it interesting that += -1 was the choice of 
+how to decrement the timer instead of -= 1. I think both work and there is no problem with it, it's just interesting.
+This class isn't that hard to understand I'd say.
+
+Maintainability: I'd say the code is very maintainable. One thing that will need to be changed in the future is 
+the number of fireballs. That just means ShootFireball will have to know the number of fireballs on the screen and
+it will be an extra condition in the if. That is super easy to change. It's the same with the other methods. If
+something happens only when facing right but not left, that would just have to be added to the one method. Though if
+something happens in both directions it would have to be added to both methods.
+
+I believe Arun did a good job on this class.

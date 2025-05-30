@@ -1,0 +1,18 @@
+HwanhoKim'sCodeReview
+
+Hwanho Kim
+12/4/2024
+Sprite 5
+Arun Ghimire
+10 Minutes
+
+Readability: 
+This is quite short class rather than the level one because there are not that many block, obstacle and enemy sprites.
+There are instance variables for this class at the first part with the relevant naming, and it has constructor at the second part.
+It assign the instance variable with the right texture using textureManager.
+Third part was initializeLevel and load level using layer classes.
+It also have update and draw class, and last part is floorRectangle for the ground.
+With the clear naming and code, it was readable.
+
+Maintainability: As I said before, the structure of the level two was similar with level one, and the structure was maintainable with clear sections in this class as I sad before.
+It used textureManager and stateMachine in constructor, and update and draw all the things relevantly.

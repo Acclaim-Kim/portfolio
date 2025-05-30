@@ -1,0 +1,21 @@
+Michael Francek
+10/21/24
+Sprint 3
+Layer
+Helen Wang
+15 minutes
+
+Readability Comments:
+Most variable and method names are descriptive to be readable. I would say the code is readable, but 
+without already being familiar with the reader and string methods, it took me a few minutes to parse 
+what was going on in this class. A comment about what the loops and conditionals are checking for and 
+doing would help a lot if others ever need to work with this code. Also, the single character variable
+names confused me. I thought they were just loop iteration variables at first, but it looks like
+they represent x/y coordinates for reading/writing from the csv to the tile array. If that's the case,
+a longer, more descriptive name would be helpful.
+
+
+Maintainability Comments: 
+Class is set up in a way where individual numbers can be tweaked or different files can be loaded
+for different levels. This class seems perfect to already work with all maps, but wouldn't seem
+very hard to rework/reuse in different contexts. Good job!

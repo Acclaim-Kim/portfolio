@@ -1,0 +1,17 @@
+Sanaa Kamau
+10/21/2024
+Sprint3
+Goomba2.cs
+Dylan Moore
+20 minutes
+
+Readability
+I'd say that the Goomba2 class is overall very readable. The class doesn't contain
+an excessive amount of lines of code. At a basic level, any reader could look at the 
+methods and guess what they do as they're highly descriptive. I think it might be helpful
+to change the name of the class from Goomba2 to something else as there's a Goomba and Goomba2 
+class and can be difficult at face value to discern the actual difference between the two.
+
+Maintainability
+I think the Goomba2 class is fairly maintainable as the class has a limited amount of
+hard code, it's easy to add methods or change the functionality.

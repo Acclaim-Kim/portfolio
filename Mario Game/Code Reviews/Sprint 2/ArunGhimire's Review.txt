@@ -1,0 +1,81 @@
+Arun Ghimire
+8 / 30 / 24
+Sprint 2
+IMarioState.cs
+Michael Francek
+20 Minutes
+
+Readibility Comments:
+Off the bat, I can tell that the structure of this code is very well organized. The sepeartion of the interface and class makes it easy to
+follow. However, it would be better to create a new file for the itnerface and class and seperate them that way. It is also very easy to tell
+what each method does because of the name given. The same thing can be said about the fields and variables as well. They all have good and 
+descriptive names. These aspects make it very easy to know what is going on and follow the code. The naming convention is consistent too with 
+pascal case for enums and methods which improves readibility.
+
+In the few areas where improvements could be made, I would say start off with cleaing out the comments. Though this is not a bad thing, there
+are quite a few comments floating around that don't really have a reason being there. I recommend adding comments at the top to describe what
+the class or interface does and adding some sparingly in the body where it is absolutely necessary. Also, cleaning up the magic numbers and
+making them constants would be nice.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Arun Ghimire
+8 / 30 / 24
+Sprint 2
+ConstructMarioSprite.cs
+Michael Francek
+25 Minutes
+
+Code Quality Comments:
+The usage of enums and switch statements is very nice. This makes the code very nice to follow and keeps the logic in a simple hierarchy. well
+done. The sprite constructor maps all of the necessary mario sprites to make mario function which is good.
+
+There are a few improvements I can recommend. First, this is obvious but I'd say shorten the class up a little bit. 200 lines of switch cases
+is nuts. I think breaking it down into smaller classes and helper methods would do wonders for the length. Also this is very obvious but I'd
+say get rid of the commented out codes. There are large sections of this and is unnecessary unless the methods are about to be implemented 
+right away. 
+
+A hypothetical change I would recommend is maybe turn each sub-case of the switch statement into a function that returns a sprite. That would
+help break the code down into small bits, and also improve the scalability of the code. for example, have a method that checks if mario is
+small, big, or fire, have another method that checks if its facing left or right, then have another mehod to check if he is moving, idle,
+couching, or jumping. with these 3 methods, you can reduce the length of your code and have the option to scale it with further powerups. This
+should be very doable with the curent state of the program.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Arun Ghimire
+8 / 30 / 24
+Sprint 2
+GoombaStateMachine.cs
+Dylan Moore
+15 Minutes
+
+Code Readibilty Comments:
+It is easy to tell that the code has structure to it. It is readable has well. It has very descriptive method names and variable names which
+is very helpful. The fields are also easy to tell what they do. Only minor concern I have with names is the SpriteBatch being named sb. Its
+not a big deal at all though. I like the simple control flow and the hierarchy of the switch satements.
+
+Only minor things I could recommend for this is again, maybe change sb to spriteBatch. And beStomped and beFlipped to a better name such as
+flipGoombaSprite or stompGoomaSprite. Other than that, there isn't a lot I could recommend for this class.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Arun Ghimire
+8 / 30 / 24
+Sprint 2
+GoombaSprites.cs
+Dylan Moore
+20 Minutes
+
+Code Quality Review:
+I can tell that this class implements the basic sprite management controls. It has a very clean structure and easy to follow logic. Well done.
+Each method serves a specific purpose and its easy to tell what each one does and how the sprite will behave in different situations and when
+a differnt method is called. The naming conventions are consistent, which helps readability, and the animation controls are straightforward. 
+Good job on declaring constants to prevent magic numbers.
+
+One thing I can recommend that would help your code is reducing code duplication. I see that the code for the destinationRectangle set up is
+repeated a couple times. also the source rectangle as well. Maybe there might be a way to simplify that. Overall, I think this code is very
+scaleable and maintainable. Adding more methods or features to this class would not cause any problems and you could proboably do it with ease.
+
+A hypothetical change I would recommend is to consolidate the movement logic into a single method that takes a direction parameter to manage 
+both left and right movements. This would streamline the code and make it easier to add additional behaviors in the future. Furthermore, 
+incorporating a method to reset the counter and position could further enhance maintainability. Overall, while the current implementation 
+works, these adjustments could improve clarity and scalability.
+-----------------------------------------------------------------------------------------------------------------------------------------------

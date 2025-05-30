@@ -1,0 +1,21 @@
+Author: Sanaa Kamau
+Code to be Reviewed: FirerMario.cs
+Sprint 2
+Minutes taken to complete revew: 25 minutes
+
+Readable: 
+Overall the code is very readable. It's easy to make out the intent behind all of the mario states. The names are
+relevant given their functions and provide aid to the readibility. 
+
+
+Code Quality: 
+The decorated mario class is also used in this class, as well as
+other classes which proves to be resuable for other classes such as starMario. The states
+are simplistic and straight to the point. Function bodies for states or precise.
+
+Hypothetical change: 
+I noticed the game class is being passed in, which can be prevented, making for a more centric distribution of
+what classes inherit/make use of others explicitly. Perhaps also, if the sprites were more organized, there wouldn't 
+be a need to reiterate every repeated state for Mario's different powerups. For example, the base mario, star mario and
+fire mario all have methods regarding the states such as crouching, standing left/right, swimming etc. An automated system
+could be used to match up the sprites, however each powerup has different abilities also so there's bound to be some reiteration. 

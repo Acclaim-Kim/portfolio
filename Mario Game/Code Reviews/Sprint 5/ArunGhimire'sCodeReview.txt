@@ -1,0 +1,16 @@
+Arun Ghimire
+12/4/24
+Sprint 5
+Layer.cs
+Helen Wang
+10 Minutes
+
+Readability:
+The class is very readable. The variable names are very descriptive and each method is short and has detailed headers so it's easy to tell what each does. The code is very structured too 
+with each method using the one above it, it has a nice hierarchy. As such, the class follows a logical order: fields and properties are defined first, followed by the constructor, then 
+methods. Great work with this class.
+
+Maintainability:
+I think this class is very maintainable. It only has a few methods and they are fairly simple. The program is just reading from a csv file and then drawing the tiles, making squares, and 
+then putting these squares in a list. Very simple code to manage and the class isn’t too long at all. One improvement I can suggest is to remove the parameters of tile row and tile size from 
+the constructor. Since those values will always be 16 and 32, that can just be a constant field value. Other than that no serious refactoring needed in my opinion.

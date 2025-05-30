@@ -1,0 +1,37 @@
+Pixel Plumbers
+Sprint Reflection
+
+Team Overview:
+As we wrap up Sprint 2, our team reflects on our progress and collaboration in developing the initial gameplay mechanics for our project. We successfully implemented several 
+key functionalities, enhancing both our understanding of game design and our teamwork skills. We still have a lot to learn and there are many things we wish we did differently,
+but we are proud of the position we are in.
+
+Achievements:
+During this sprint, we focused on creating interfaces and classes for various game objects, including player, enemies, and items. We implemented movement mechanics for the player 
+character (though not perfectly) and basic enemy behavior, allowing for smooth animation and state transitions. Additionally, we successfully separated sprite drawing from gameplay 
+logic, adhering to best practices in game architecture.
+
+Challenges:
+We encountered many challenges throughout this project. The most obvious ont is Monogame and developing with C# on visual studio. None of our team members were familiar with Monogame
+at the start of the class, and sprint 2 proved to be a huge learning curve. We were all in the same boat struggling together. Another significant challenge we faced was with github
+and version control. None of us were familiar with git, so it took a lot of time, effort, trial, and errors to get to where we are now. We had a few major issues with merging and 
+such right before the functionality check-in was due so we were'nt able to complete that assignment properly. Although each of us had our own part working, we weren't able to put 
+it all together due to git errors. Another channelge we faced was near the start of sprint 2 where we were having trouble with setting up a meeting time for discussions. Since most
+of us have differing schedules, it was somewhat of a challenge.
+
+
+Team Dynamics:
+The division of tasks worked well overall, with some members focusing on player mechanics while others handled enemy ai, game blocks and items. We utilized code reviews effectively,
+providing constructive feedback that helped improve our code quality. However, there were instances where clearer communication could have prevented overlapping efforts, particularly 
+in the initial phases of implementation. For example, We accidentally ended up creating most of the mario sprites twice between two people because neither of us communicated that we
+were working on that particular aspect.
+
+
+Process Improvements:
+Moving forward, we plan to implement more regular check-ins to discuss progress and address any blockers. We also aim to adopt a more modular approach to our code to facilitate easier
+updates and maintenance. With the end of sprint 2, we ralized that our code can be improved to be so much better and simpler. We plan on getting that ironed out first thing after we 
+turn in sprint 2 so we have an easier time adding more functionalities.
+
+Looking Ahead:
+As we prepare for the next sprint, we are excited to build upon our progress. We’ll focus on refining our game mechanics and expanding the scope of our project, potentially 
+incorporating additional features based on feedback from this sprint. Our goal is to enhance the overall gameplay experience while maintaining high code quality and readability.

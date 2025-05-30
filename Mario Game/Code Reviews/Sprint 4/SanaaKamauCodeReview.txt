@@ -1,0 +1,20 @@
+Name: Sanaa Kamau
+Date: 11/12/2024
+
+Sprint 4
+BlackJackStateMachine.cs
+Author:Dylan Moore
+~25 Minutes
+
+Readability:
+The class is pretty readable for the most part. Variable names are pretty descriptive overall. I would recommend renaming the table and top enum state values because
+reading them intuitively can be a bit confusing. (what does it mean for the current state to be table? top?) I would also reorder some of the methods so that reading them
+top to bottom is a little more organized. The class is less than 120 lines which also aids in its' readability. 
+
+Maintainability:
+The class seems fairly maintainable.The methods individually are pretty simplistic; sticking to their own respective tasks. The private variables for the class are also very general,
+so they can easily be used for a different purpose of play if need be. 
+
+Overall, Dylan did a great job with the BlackJackStateMachine class. Its' simplistic enough to be easy to read yet simultaneously carries a lot of functionality.
+
+

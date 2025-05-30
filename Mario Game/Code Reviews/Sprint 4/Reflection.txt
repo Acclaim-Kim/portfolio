@@ -1,0 +1,31 @@
+Pixel Plumbers
+Reflection Sprint 4
+Team Overview:
+Continuing from last sprint, we've been getting more comfortable with coding conventions and using MonoGame. As out familiarity 
+has improved we've begun integrating more creative elements into the game, building a foundation that's both functional and fun.
+
+Achievements:
+We successfully implemented a working camera, enhancing the game's visual flow and player experience. Also, our tilemaps are 
+completed for both level 1 and 2, and the camera is able to travel through both maps. We've also added sound effects to improve 
+the gameplay make it more creative and fun. 
+
+Challenges:
+Implementing the Level Class was more complex and we faced difficulties making sure that loading a level triggers the correct 
+actions in the Level Class. Also, we've faced challenges with integrating accurate collision detection for blocks and the ground 
+which required a good amount of troubleshooting and adjustment. We've also begun working on a level reset function to get the levels 
+to restart effectively, but faced some challenges in making it consistently reliable.
+
+Team Dynamics:
+We met less regularly this sprint than in previous ones which led to some uneven workloads accross the team. Some teammates took 
+on more responsibilities highlighting an area for potential improvement in workload distribution.
+
+Process Improvements:
+We continued to improve our GitHub workflow and this progress has been important for us to keep out project organized and 
+collaborative.
+
+Looking Ahead:
+We plan on further refining the block collisions to make sure that player interaction is more seamless. We are also looking to 
+improve the logic for enemy spawns on the map to make gameplay more consistent. We are also looking to develop addition Mario 
+state animations such as Star Mario, Mario death, and turn animations to make the game feel more responsive. Finally, we also 
+plan to clean up our Game1 class to better organize the load, update, and draw methods so we can call these methods according 
+to the level.

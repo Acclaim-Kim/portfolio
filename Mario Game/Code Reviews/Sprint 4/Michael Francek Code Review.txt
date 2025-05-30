@@ -1,0 +1,17 @@
+Michael Francek
+Sprint 4 Code Review
+
+Class 1: Ground
+Written by Sanaa
+
+Readability: Class is very easy to understand. All methods are named appropriately except for allCollisionRectangles, but the methods are so short that their purpose can be easily determined from the code. Great job!
+
+Maintainability: The class is formatted well, so adding a new method would be easy to do. This class could easily be reworked to holding rectangles of other types. However, as I was looking at the class, it dawned on me that this class doesn't seem necessary? The class's purpose is to store a list and call list methods on that list. Why would you need to pass around a Ground object instead of just passing around the list of ground collision rectangles?
+
+
+Class 2: LevelOne
+Written by Arun
+
+Readability: Variable names are easy to understand. Variable declaration is a mess, this could be improved by using an array of each type instead of having a million different variables of each. Methods make sense, but again, are a mess of repeated code that could be consolidated using collections.
+
+Maintainability: Seems plausible to create a new class using this as a base. Creating a level by manually initializing every object seems like a pain, but I can't think of an easier way to do it using a class based level. Using collections to draw and update anything would make the class much more maintainable, since adding new stuff would become much simpler. Otherwise, no comments on the maintainability of the code.

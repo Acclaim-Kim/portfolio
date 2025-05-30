@@ -1,0 +1,19 @@
+Helen Wang
+11/12/2024
+Sprint 4
+ToggleFalling.cs
+Sanaa Kamau
+20 minutes
+
+Readability
+The class as descriptive method names like updateEnemyFalling, updateItemFalling, and updateMarioFalling which are clear 
+and convey their purpose well making it easy to understand what the methods are doing. Also, the class separates the logic 
+for enemies, items, and Mario which make it easier to follow what the code is doing. To make the code more readable the magic 
+numbers could be changed out for constant values to make it easier to understand what the numbers are for. Also, the logic for 
+updateEnemyFalling and updateItemFalling contain almost identical logic, maybe there is a way to condense it to make the code 
+easier to read and maintain. 
+
+Maintainability
+The class has a clear structure with dedicated methods for handling different objects which make it easy to add or modify 
+behavior for specific object types. To improve maintainability, the boolean flag marioIsColliding could be deleted because 
+marioIsColliding is already being set to true inside the loop and is later checked after the loop to reset it. 

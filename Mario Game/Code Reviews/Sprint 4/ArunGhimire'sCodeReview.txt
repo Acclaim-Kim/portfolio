@@ -1,0 +1,16 @@
+Arun Ghimire
+11/12/24
+Sprint 4
+MusicMachine.cs
+Dylan Moore
+15 Minutes
+
+Maintainability
+This code seems very maintainable. It follows a fairy simple structure. It has a simple contructor, followed by two functions.
+The functions are simple, and the constructor only locates the sound from content and adds it to the list. The current method
+just simply returns the first list in the song, and next song treats the list as a queue, removing the first song and adding it
+to the back of the list.
+
+Overall, this class is very maintainable, nothing too difficult to follow or keep track of. One concern that could arise is that
+as more music needs to be added, the constructor could grow exponentially long since you're manually adding all the songs into the
+list there. I don't see any other way to prevent this though. 

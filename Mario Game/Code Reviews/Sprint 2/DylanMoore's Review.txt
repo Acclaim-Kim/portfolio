@@ -1,0 +1,62 @@
+Dylan Moore
+9 / 30 / 24 Updated on 10 / 7 / 24 (forgot this heading and the one below)
+Sprint 2
+JumpingLeftBigMario.cs && TurningLeftBigMario.cs && MovingLeftBigMario.cs
+Arun Ghimire
+20~ Minutes
+
+Sprites -> Mario Sprites -> JumpingLeftBigMario.cs && TurningLeftBigMario.cs && MovingLeftBigMario.cs
+
+Readability: JumpingLeftBigMario.cs && TurningLeftBigMario.cs
+It keeps a private texture passed in when initialized.
+Draw specifically draws something from the passed texture.
+Update does nothing, but is also passed Gametime. 
+In the turning code there is some subtraction as well.
+I don't know what the numbers specifically are or why the subtraction is there.
+
+Maintainability: JumpingLeftBigMario.cs && TurningLeftBigMario.cs
+The code is small so it wouldn't be difficult to change a number or add something to updates.
+However, it may be difficult for an outside observer to know which number to change.
+
+
+Readability: MovingLeftBigMario.cs
+It seems to take in the texture and make 3 frames based on it.
+Then the current frame is 1, but the previous is 2? That seems confusing.
+Only 1 line is needed for draw though.
+Then in update it takes the current time and changes the current index somehow.
+I don't understand lines 40-42 personally.
+
+Maintainability: MovingLeftBigMario.cs
+The fields at the top are private which is good.
+It's only about 50 lines of code so changing which frames are used and how update functions wouldn't be too bad.
+I think all 3 are very maintainable. If updates would ever need to expand, it wouldn't be difficult to make a change.
+
+
+Dylan Moore
+9 / 30 / 24 Updated on 10 / 7 / 24
+Sprint 2
+FireMario
+Michael
+15~ Minutes
+
+MarioClasses -> FireMario
+
+Readability: FireMario
+It implements IMario.
+It takes in a decorator and game1. These fields I think are private by default.
+I don't think it would be bad to specifically make sure they are private.
+The first few methods just call methods from the decoratedMario which seems fine.
+There is a method to remove the powerup which seems good.
+The actual fire ability isn't implemented yet which is fine for now.
+The comment in CollectPower up helps the reader understand why the method is blank.
+Interestingly enough, it seems a star is separate from other powerups.
+
+There are specific stop and run methods. Maybe more detailed names could explain what they are for.
+What is the difference between swapping direction and turning?
+Then the bottom has methods for returning the current state and direction.
+
+
+Maintainability: FireMario
+It isn’t many lines and adding a new method wouldn't be difficult.
+It is very easily expandable but more descriptive names may help in the future.
+The functionality of what things do is clearly elsewhere (which isn't a problem at all) so it seems to do as it was intended.

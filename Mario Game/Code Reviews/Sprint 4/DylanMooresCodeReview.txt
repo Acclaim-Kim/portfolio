@@ -1,0 +1,22 @@
+﻿Dylan Moore
+11/12/2024
+Sprite 4
+LevelOne.cs
+Arun Ghimire
+20~ Minutes
+
+Levels -> LevelOne.cs
+
+Readability: It seems really easy to read to me. screen never seems to get used and I'm not sure what it's 
+for though. I also noticed that DrawLevel has a something called camera which isn't used. I like the
+extraction of all the enemies and blocks here for the level. I wonder if extracting it out once more would
+be better or not. It's also clear to me that all the enemies and blocks are added to the IEntity list to
+be checked for with collisions. Though that's probably because I'm also a developer on the project.
+It also is a good idea to have the update and draw methods here so draw in Game1 isn't huge.
+
+Maintainability: I almost wonder if making a seprate updates/draw for blocks would be useful. This class
+is very maintainable so it wouldn't be difficult to achieve. It also wouldn't be difficult to add or remove
+enemies/blocks. I think the most difficult part is finding the raw numbers for where each block and enemy goes. 
+The class isn't to complicated or difficult to add/remove to.
+
+All in all Arun did a good job.

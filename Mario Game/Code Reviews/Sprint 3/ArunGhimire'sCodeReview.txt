@@ -1,0 +1,19 @@
+Arun Ghimire
+10/20/24
+Sprint 3
+EnemyMarioInteraction.cs
+Dylan Moore
+15 Minutes
+
+Readability Comments:
+The class is very short and concise. It is easy to tell what is what because of the descriptive variable names. It is also very easy to tell what the update() method does 
+due to its short nature. Just a simple if-else is what we like to see. The variables follow (in general) a consistent naming scheme. The logic flow is well structured and 
+easy to follow. The only "comment" I’d give about improvement is to maybe add a little description at the top of the file, but this is not necessary at all.
+
+
+Maintainability Comments: 
+I’d say that the code is very maintainable. Since it is a very short class, adding/removing stuff from it can be done without a hassle. I like how hasStar is checked before 
+everything else. Overall, I think that this class is concise enough that it won’t be necessary to add more stuff in the future, and in the case that you do have to expand 
+it, you can do it easily.
+
+I think you did a great job on this class. Well done!

@@ -1,0 +1,29 @@
+Hwanho's Code Review
+
+Readability
+Author of review: Hwanho Kim
+Date: 09/30/24
+Sprint Number: 2
+Name of the .cs file: BrokenBrickBlockSprite.cs
+Author of code: Helen Wang
+Number of minutes: 10
+Comment:
+I firstly like the name of this class because it clearly represent what kind of block it is.
+If we have so many classes and many kind of blocks, team members might struggle to distinguish that what kind of block is associated with this cs file without clear name.
+For the most of the instance variables, it I was clearly readable.
+However, the instance name Start and End was little ambiguous what this variable represent.
+I could see that those variables are related to the width and height, but I think it is not readable enough.
+
+Code Quality
+Author of review: Hwanho Kim
+Date: 09/30/24
+Sprint Number: 2
+Name of the .cs file: starPower.cs
+Author of code: Sanaa Kamau
+Comment:
+She use constructor to get ItemTexture from the game1 class.
+For the draw method, she pass the position variable to get the destination position.
+It is good in terms that this class is nothing to do with the game1 class.
+Surely, this class should get some variables from game 1 class, but this class never access to the game 1 class because constructor does not have game 1 as parameter.
+Hypothetical change:
+She made another controller to iterate items, however, I think it can be merged with the keyboardController that already exist for the maintainability and simpleness.
