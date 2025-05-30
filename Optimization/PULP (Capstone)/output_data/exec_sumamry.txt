@@ -1,0 +1,16 @@
+
+
+Executive Summary:
+
+Plant Number: 1085
+	Plant Number of Late Materials: 118
+	Plant Amount of Late Revenue: $2147281.44
+Plant Number: 958
+	Plant Number of Late Materials: 109
+	Plant Amount of Late Revenue: $1750155.68
+Plant Number: 960
+	Plant Number of Late Materials: 371
+	Plant Amount of Late Revenue: $2608602.54
+Plant Number: 1502
+	Plant Number of Late Materials: 756
+	Plant Amount of Late Revenue: $1972332.79
