@@ -1,0 +1,658 @@
+"volcano_number","volcano_name","primary_volcano_type","last_eruption_year","region","latitude","longitude","elevation","tectonic_settings","major_rock_1","num_eruptions"
+210010,"West Eifel Volcanic Field","Maar",-8300,"Mediterranean and Western Asia",50.17,6.85,600,"Rift zone / Continental crust (>25 km)","Foidite",2
+210020,"Chaine des Puys","Lava dome",-4040,"Mediterranean and Western Asia",45.775,2.97,1464,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",8
+210040,"Calatrava Volcanic Field","Pyroclastic cone",-3600,"Mediterranean and Western Asia",38.87,-4.02,1117,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+211003,"Vulsini","Caldera",-104,"Mediterranean and Western Asia",42.6,11.93,800,"Subduction zone / Continental crust (>25 km)","Trachyte / Trachydacite",1
+211010,"Campi Flegrei","Caldera",1538,"Mediterranean and Western Asia",40.827,14.139,458,"Subduction zone / Continental crust (>25 km)","Trachyte / Trachydacite",20
+211020,"Vesuvius","Stratovolcano",1944,"Mediterranean and Western Asia",40.821,14.426,1281,"Subduction zone / Continental crust (>25 km)","Phono-tephrite /  Tephri-phonolite",61
+211030,"Ischia","Complex",1302,"Mediterranean and Western Asia",40.73,13.897,789,"Subduction zone / Continental crust (>25 km)","Trachyte / Trachydacite",24
+211040,"Stromboli","Stratovolcano",2020,"Mediterranean and Western Asia",38.789,15.213,924,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",22
+211042,"Lipari","Stratovolcano",1230,"Mediterranean and Western Asia",38.49,14.933,590,"Subduction zone / Continental crust (>25 km)","Rhyolite",3
+211050,"Vulcano","Stratovolcano",1890,"Mediterranean and Western Asia",38.404,14.962,500,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",46
+211060,"Etna","Stratovolcano",2020,"Mediterranean and Western Asia",37.748,14.999,3295,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",241
+211070,"Campi Flegrei del Mar di Sicilia","Submarine",1867,"Mediterranean and Western Asia",37.1,12.7,-8,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",8
+211071,"Pantelleria","Shield",1891,"Mediterranean and Western Asia",36.77,12.02,836,"Rift zone / Continental crust (>25 km)","Rhyolite",9
+212020,"Methana","Lava dome",-258,"Mediterranean and Western Asia",37.615,23.336,760,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+212030,"Milos","Stratovolcano",140,"Mediterranean and Western Asia",36.699,24.439,751,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+212040,"Santorini","Shield",1950,"Mediterranean and Western Asia",36.404,25.396,367,"Subduction zone / Continental crust (>25 km)","Dacite",13
+212050,"Nisyros","Stratovolcano",1888,"Mediterranean and Western Asia",36.586,27.16,698,"Subduction zone / Continental crust (>25 km)","Dacite",4
+213004,"Acigol-Nevsehir","Caldera",-2080,"Mediterranean and Western Asia",38.537,34.621,1683,"Intraplate / Continental crust (>25 km)","Rhyolite",5
+213010,"Erciyes Dagi","Stratovolcano",-6880,"Mediterranean and Western Asia",38.531,35.447,3864,"Intraplate / Continental crust (>25 km)","Dacite",2
+213020,"Nemrut Dagi","Stratovolcano",1650,"Mediterranean and Western Asia",38.654,42.229,2948,"Intraplate / Continental crust (>25 km)","Rhyolite",27
+213030,"Tenduruk Dagi","Shield",1855,"Mediterranean and Western Asia",39.356,43.874,3514,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+213040,"Ararat","Stratovolcano",1840,"Mediterranean and Western Asia",39.7,44.3,5165,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+214010,"Elbrus","Stratovolcano",50,"Mediterranean and Western Asia",43.351,42.442,5642,"Intraplate / Continental crust (>25 km)","Dacite",1
+214020,"Kazbek","Stratovolcano",-750,"Mediterranean and Western Asia",42.7,44.5,5050,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+214070,"Ghegham Volcanic Ridge","Volcanic field",-1900,"Mediterranean and Western Asia",40.283,45,3597,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+214080,"Vaiyots-Sar","Pyroclastic cone",-2000,"Mediterranean and Western Asia",39.797,45.497,2575,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+214090,"Porak","Stratovolcano",-778,"Mediterranean and Western Asia",40.028,45.74,3029,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+221010,"Tair, Jebel at","Stratovolcano",2008,"Africa and Red Sea",15.55,41.83,244,"Rift zone / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",5
+221020,"Zubair Group","Shield",2013,"Africa and Red Sea",15.05,42.18,191,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",4
+221060,"Alu-Dalafilla","Fissure vent",2008,"Africa and Red Sea",13.793,40.553,578,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",1
+221080,"Erta Ale","Shield",2020,"Africa and Red Sea",13.6,40.67,613,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",7
+221100,"Dubbi","Stratovolcano",1861,"Africa and Red Sea",13.579,41.809,1625,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",4
+221112,"Alayta","Shield",1915,"Africa and Red Sea",12.888,40.573,1496,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",2
+221113,"Dabbahu","Stratovolcano",2005,"Africa and Red Sea",12.595,40.48,1401,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",4
+221115,"Manda Hararo","Shield",2009,"Africa and Red Sea",12.17,40.82,600,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",2
+221122,"Manda-Inakir","Fissure vent",1928,"Africa and Red Sea",12.38,42.2,600,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",1
+221126,"Ardoukoba","Fissure vent",1978,"Africa and Red Sea",11.58,42.47,298,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",1
+221141,"Dama Ali","Shield",1631,"Africa and Red Sea",11.28,41.63,1068,"Rift zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",1
+221190,"Fentale","Stratovolcano",1820,"Africa and Red Sea",8.975,39.93,2007,"Rift zone / Continental crust (>25 km)","Rhyolite",2
+221200,"Kone","Caldera",1820,"Africa and Red Sea",8.788,39.701,1380,"Rift zone / Continental crust (>25 km)","Rhyolite",1
+221250,"Tullu Moje","Pyroclastic cone",1900,"Africa and Red Sea",8.159,39.137,2343,"Rift zone / Continental crust (>25 km)","Rhyolite",2
+221270,"Alutu","Stratovolcano",-50,"Africa and Red Sea",7.77,38.78,2335,"Rift zone / Continental crust (>25 km)","Rhyolite",1
+222030,"Barrier, The","Shield",1921,"Africa and Red Sea",2.32,36.57,1032,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",12
+222040,"Namarunu","Shield",-6550,"Africa and Red Sea",1.98,36.43,817,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+222051,"Emuruangogolak","Shield",1910,"Africa and Red Sea",1.5,36.33,1285,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",8
+222052,"Silali","Shield",-5050,"Africa and Red Sea",1.15,36.23,1528,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",3
+222053,"Paka","Shield",-7550,"Africa and Red Sea",0.92,36.18,1697,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",1
+222090,"Olkaria","Pyroclastic cone",1770,"Africa and Red Sea",-0.904,36.292,2434,"Rift zone / Continental crust (>25 km)","Rhyolite",3
+222120,"Lengai, Ol Doinyo","Stratovolcano",2020,"Africa and Red Sea",-2.764,35.914,2962,"Rift zone / Continental crust (>25 km)","Foidite",29
+222130,"Chyulu Hills","Volcanic field",1855,"Africa and Red Sea",-2.68,37.88,2188,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",2
+222160,"Meru","Stratovolcano",1910,"Africa and Red Sea",-3.25,36.75,4565,"Rift zone / Continental crust (>25 km)","Phonolite",4
+222161,"Igwisi Hills","Pyroclastic cone",-10450,"Africa and Red Sea",-4.889,31.933,1146,"Rift zone / Continental crust (>25 km)","Foidite",1
+222164,"Ngozi","Caldera",1450,"Africa and Red Sea",-8.989,33.554,2614,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",2
+222166,"Rungwe","Stratovolcano",1250,"Africa and Red Sea",-9.135,33.668,2953,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",3
+222170,"Kyejo","Stratovolcano",1800,"Africa and Red Sea",-9.229,33.792,2176,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",1
+223001,"Fort Portal","Tuff cone",-2120,"Africa and Red Sea",0.7,30.25,1615,"Rift zone / Continental crust (>25 km)","Foidite",2
+223020,"Nyamuragira","Shield",2020,"Africa and Red Sea",-1.408,29.2,3058,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",49
+223030,"Nyiragongo","Stratovolcano",2020,"Africa and Red Sea",-1.52,29.25,3470,"Rift zone / Continental crust (>25 km)","Foidite",20
+223040,"Karisimbi","Stratovolcano",-8050,"Africa and Red Sea",-1.506,29.45,4490,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+223050,"Visoke","Stratovolcano",1957,"Africa and Red Sea",-1.458,29.485,3696,"Rift zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",2
+224010,"Cameroon","Stratovolcano",2000,"Africa and Red Sea",4.203,9.17,4095,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",19
+225030,"Marra, Jebel","Volcanic field",-2000,"Africa and Red Sea",12.95,24.27,3042,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+225050,"Meidob Volcanic Field","Pyroclastic cone",-2950,"Africa and Red Sea",15.32,26.47,2000,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",6
+225060,"Bayuda Volcanic Field","Pyroclastic cone",850,"Africa and Red Sea",18.33,32.75,670,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+231001,"Harrat Ash Shamah","Volcanic field",1850,"Middle East and Indian Ocean",32.333,37.583,1100,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+231020,"Uwayrid, Harrat","Volcanic field",640,"Middle East and Indian Ocean",27.08,37.25,1920,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231040,"Lunayyir, Harrat","Volcanic field",1000,"Middle East and Indian Ocean",25.17,37.75,1370,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231060,"Khaybar, Harrat","Volcanic field",650,"Middle East and Indian Ocean",25,39.92,2093,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231070,"Rahat, Harrat","Volcanic field",1256,"Middle East and Indian Ocean",23.08,39.78,1744,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+231080,"Yar, Jabal","Volcanic field",1810,"Middle East and Indian Ocean",17.05,42.83,305,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231090,"Arhab, Harra of","Volcanic field",500,"Middle East and Indian Ocean",15.63,44.08,3100,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",2
+231110,"Haylan, Jabal","Volcanic field",-1200,"Middle East and Indian Ocean",15.4,45.1,1550,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231120,"Dhamar, Harras of","Volcanic field",1937,"Middle East and Indian Ocean",14.57,44.67,3500,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+231160,"Sawad, Harra Es-","Volcanic field",1253,"Middle East and Indian Ocean",13.58,46.12,1737,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+232010,"Damavand","Stratovolcano",-5350,"Middle East and Indian Ocean",35.951,52.109,5670,"Intraplate / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",1
+233010,"Karthala","Shield",2007,"Middle East and Indian Ocean",-11.75,43.38,2361,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",35
+233014,"Itasy Volcanic Field","Pyroclastic cone",-6050,"Middle East and Indian Ocean",-19.033,46.7,1800,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",2
+233020,"Fournaise, Piton de la","Shield",2020,"Middle East and Indian Ocean",-21.244,55.708,2632,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",194
+234010,"Heard","Stratovolcano",2020,"Middle East and Indian Ocean",-53.106,73.513,2745,"Intraplate / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",13
+234070,"Marion Island","Shield",2004,"Middle East and Indian Ocean",-46.9,37.75,1230,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+241010,"Kaikohe-Bay of Islands","Volcanic field",400,"New Zealand to Fiji",-35.3,173.9,388,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+241020,"Auckland Volcanic Field","Volcanic field",1350,"New Zealand to Fiji",-36.9,174.87,260,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+241021,"Mayor Island","Shield",-5060,"New Zealand to Fiji",-37.28,176.25,355,"Subduction zone / Continental crust (>25 km)","Rhyolite",2
+241030,"Taranaki","Stratovolcano",1800,"New Zealand to Fiji",-39.3,174.07,2518,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",43
+241040,"Whakaari/White Island","Stratovolcano",2019,"New Zealand to Fiji",-37.52,177.18,294,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",42
+241050,"Okataina","Lava dome",1981,"New Zealand to Fiji",-38.12,176.5,1111,"Subduction zone / Continental crust (>25 km)","Rhyolite",31
+241060,"Reporoa","Caldera",1180,"New Zealand to Fiji",-38.42,176.33,592,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+241061,"Maroa","Caldera",180,"New Zealand to Fiji",-38.42,176.08,897,"Subduction zone / Continental crust (>25 km)","Rhyolite",2
+241070,"Taupo","Caldera",260,"New Zealand to Fiji",-38.82,176,760,"Subduction zone / Continental crust (>25 km)","Rhyolite",25
+241080,"Tongariro","Stratovolcano",2012,"New Zealand to Fiji",-39.157,175.632,1978,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",79
+241100,"Ruapehu","Stratovolcano",2007,"New Zealand to Fiji",-39.28,175.57,2797,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",66
+241130,"Rumble III","Submarine",2008,"New Zealand to Fiji",-35.745,178.478,-220,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",6
+241140,"Healy","Submarine",1360,"New Zealand to Fiji",-35.004,178.973,-980,"Subduction zone / Oceanic crust (< 15 km)","Dacite",1
+242021,"Macauley","Caldera",-4360,"New Zealand to Fiji",-30.21,-178.475,238,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+242030,"Raoul Island","Stratovolcano",2006,"New Zealand to Fiji",-29.27,-177.92,516,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",19
+243060,"Tofua","Caldera",2014,"New Zealand to Fiji",-19.75,-175.07,515,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",11
+243110,"Niuafo'ou","Shield",1985,"New Zealand to Fiji",-15.6,-175.63,260,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",14
+243120,"Tafu-Maka","Submarine",2008,"New Zealand to Fiji",-15.37,-174.23,-1400,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+243130,"West Mata","Submarine",2009,"New Zealand to Fiji",-15.1,-173.75,-1174,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",1
+244000,"Vailulu'u","Submarine",2003,"New Zealand to Fiji",-14.215,-169.058,-592,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+244010,"Ofu-Olosega","Shield",1866,"New Zealand to Fiji",-14.175,-169.618,639,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+244020,"Tutuila","Tuff cone",440,"New Zealand to Fiji",-14.295,-170.7,653,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+244040,"Savai'i","Shield",1911,"New Zealand to Fiji",-13.612,-172.525,1858,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",12
+245010,"Taveuni","Shield",1550,"New Zealand to Fiji",-16.82,-179.97,1241,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",34
+245030,"Nabukelevu","Lava dome",1660,"New Zealand to Fiji",-19.12,177.98,805,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",3
+250010,"St. Andrew Strait","Complex",1957,"Melanesia and Australia",-2.38,147.35,270,"Subduction zone / Oceanic crust (< 15 km)","Rhyolite",4
+251020,"Manam","Stratovolcano",2020,"Melanesia and Australia",-4.08,145.037,1807,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",45
+251030,"Karkar","Stratovolcano",2014,"Melanesia and Australia",-4.649,145.964,1839,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",19
+251050,"Long Island","Complex",1993,"Melanesia and Australia",-5.358,147.12,1280,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",12
+252010,"Langila","Complex",2018,"Melanesia and Australia",-5.525,148.42,1330,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",27
+252040,"Dakataua","Caldera",1895,"Melanesia and Australia",-5.094,150.094,408,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+252070,"Krummel-Garbuna-Welcker","Stratovolcano",2008,"Melanesia and Australia",-5.416,150.027,564,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+252080,"Witori","Caldera",2012,"Melanesia and Australia",-5.576,150.516,724,"Subduction zone / Continental crust (>25 km)","Dacite",21
+252100,"Hargy","Stratovolcano",950,"Melanesia and Australia",-5.33,151.1,1148,"Subduction zone / Continental crust (>25 km)","Dacite",2
+252130,"Lolobau","Caldera",1912,"Melanesia and Australia",-4.92,151.158,858,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",4
+252140,"Rabaul","Pyroclastic shield",2014,"Melanesia and Australia",-4.271,152.203,688,"Subduction zone / Continental crust (>25 km)","Dacite",19
+253030,"Victory","Stratovolcano",1935,"Melanesia and Australia",-9.2,149.07,1925,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+253060,"Dawson Strait Group","Volcanic field",1350,"Melanesia and Australia",-9.62,150.88,500,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+254020,"Ambitle","Stratovolcano",-350,"Melanesia and Australia",-4.08,153.65,450,"Subduction zone / Crustal thickness unknown","Phono-tephrite /  Tephri-phonolite",1
+255011,"Billy Mitchell","Pyroclastic shield",1580,"Melanesia and Australia",-6.092,155.225,1544,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",2
+255020,"Bagana","Lava cone",2020,"Melanesia and Australia",-6.137,155.196,1855,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",26
+255030,"Loloru","Pyroclastic shield",-1050,"Melanesia and Australia",-6.52,155.62,1887,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",6
+255050,"Simbo","Stratovolcano",1910,"Melanesia and Australia",-8.292,156.52,335,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",1
+255070,"Savo","Stratovolcano",1847,"Melanesia and Australia",-9.13,159.82,485,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",4
+256010,"Tinakula","Stratovolcano",2020,"Melanesia and Australia",-10.386,165.804,796,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",27
+257010,"Suretamatai","Complex",1966,"Melanesia and Australia",-13.8,167.47,921,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",4
+257020,"Gaua","Stratovolcano",2011,"Melanesia and Australia",-14.27,167.5,797,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",16
+257030,"Ambae","Shield",2018,"Melanesia and Australia",-15.389,167.835,1496,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",8
+257040,"Ambrym","Pyroclastic shield",2018,"Melanesia and Australia",-16.25,168.12,1334,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",55
+257060,"Epi","Stratovolcano",2004,"Melanesia and Australia",-16.68,168.37,833,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",14
+257070,"Kuwae","Caldera",1974,"Melanesia and Australia",-16.829,168.536,-2,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",18
+257090,"Traitor's Head","Stratovolcano",1881,"Melanesia and Australia",-18.754,169.238,817,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",2
+257100,"Yasur","Stratovolcano",2020,"Melanesia and Australia",-19.532,169.447,361,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",4
+258010,"Matthew Island","Stratovolcano",1956,"Melanesia and Australia",-22.33,171.32,177,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",7
+259010,"Newer Volcanics Province","Shield",-2900,"Melanesia and Australia",-37.77,142.5,1011,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",4
+261020,"Seulawah Agam","Stratovolcano",1839,"Indonesia",5.448,95.658,1810,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+261030,"Peuet Sague","Complex",2000,"Indonesia",4.903,96.289,2785,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+261050,"Telong, Bur ni","Stratovolcano",1937,"Indonesia",4.769,96.821,2617,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+261070,"Singkut","Caldera",1881,"Indonesia",3.248,98.501,2181,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+261080,"Sinabung","Stratovolcano",2019,"Indonesia",3.17,98.392,2460,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+261120,"Sorikmarapi","Stratovolcano",1986,"Indonesia",0.686,99.539,2145,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",10
+261140,"Marapi","Complex",2018,"Indonesia",-0.38,100.474,2885,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",68
+261150,"Tandikat-Singgalang","Stratovolcano",1924,"Indonesia",-0.39,100.331,2854,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+261160,"Talang","Stratovolcano",2007,"Indonesia",-0.979,100.681,2575,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",15
+261170,"Kerinci","Stratovolcano",2020,"Indonesia",-1.697,101.264,3800,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",37
+261180,"Sumbing","Stratovolcano",1921,"Indonesia",-2.414,101.728,2507,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+261220,"Kaba","Stratovolcano",2000,"Indonesia",-3.522,102.615,1940,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",13
+261230,"Dempo","Stratovolcano",2017,"Indonesia",-4.016,103.121,3142,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",28
+262000,"Krakatau","Caldera",2020,"Indonesia",-6.102,105.423,155,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",56
+263040,"Perbakti-Gagak","Stratovolcano",1939,"Indonesia",-6.75,106.7,1699,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+263050,"Salak","Stratovolcano",1938,"Indonesia",-6.72,106.73,2211,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+263060,"Gede-Pangrango","Stratovolcano",1957,"Indonesia",-6.77,106.965,3008,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",26
+263090,"Tangkuban Parahu","Stratovolcano",2019,"Indonesia",-6.77,107.6,2084,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",22
+263100,"Papandayan","Stratovolcano",2002,"Indonesia",-7.32,107.73,2665,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+263130,"Guntur","Complex",1847,"Indonesia",-7.143,107.84,2249,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",27
+263140,"Galunggung","Stratovolcano",1984,"Indonesia",-7.25,108.058,2168,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",7
+263170,"Cereme","Stratovolcano",1951,"Indonesia",-6.895,108.408,3039,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+263180,"Slamet","Stratovolcano",2014,"Indonesia",-7.242,109.208,3428,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",46
+263200,"Dieng Volcanic Complex","Complex",2018,"Indonesia",-7.2,109.879,2565,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",31
+263210,"Sundoro","Stratovolcano",1971,"Indonesia",-7.3,109.992,3136,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+263220,"Sumbing","Stratovolcano",1730,"Indonesia",-7.384,110.07,3371,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+263240,"Merbabu","Stratovolcano",1797,"Indonesia",-7.454,110.44,3118,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",4
+263250,"Merapi","Stratovolcano",2020,"Indonesia",-7.54,110.446,2910,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",110
+263251,"Muria","Stratovolcano",-160,"Indonesia",-6.62,110.88,1625,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+263260,"Lawu","Stratovolcano",1885,"Indonesia",-7.625,111.192,3265,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+263280,"Kelut","Stratovolcano",2014,"Indonesia",-7.93,112.308,1731,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",41
+263290,"Arjuno-Welirang","Stratovolcano",1952,"Indonesia",-7.733,112.575,3339,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+263300,"Semeru","Stratovolcano",2020,"Indonesia",-8.108,112.922,3657,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",65
+263310,"Tengger Caldera","Stratovolcano",2019,"Indonesia",-7.942,112.95,2329,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",69
+263320,"Lamongan","Stratovolcano",1898,"Indonesia",-7.981,113.341,1641,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",42
+263340,"Raung","Stratovolcano",2015,"Indonesia",-8.119,114.056,3260,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",69
+263350,"Ijen","Stratovolcano",1999,"Indonesia",-8.058,114.242,2769,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+264010,"Batur","Caldera",2000,"Indonesia",-8.242,115.375,1717,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",28
+264020,"Agung","Stratovolcano",2019,"Indonesia",-8.343,115.508,2997,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+264030,"Rinjani","Stratovolcano",2016,"Indonesia",-8.42,116.47,3726,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",21
+264040,"Tambora","Stratovolcano",1967,"Indonesia",-8.25,118,2850,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",7
+264050,"Sangeang Api","Complex",2020,"Indonesia",-8.2,119.07,1912,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",21
+264071,"Ranakah","Lava dome",1991,"Indonesia",-8.62,120.52,2350,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+264080,"Inierie","Stratovolcano",-8050,"Indonesia",-8.875,120.95,2245,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",1
+264090,"Inielika","Complex",2001,"Indonesia",-8.73,120.98,1559,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",2
+264110,"Iya","Stratovolcano",1969,"Indonesia",-8.891,121.641,618,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",11
+264140,"Kelimutu","Complex",1968,"Indonesia",-8.77,121.82,1639,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",3
+264150,"Paluweh","Stratovolcano",2013,"Indonesia",-8.32,121.708,875,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",10
+264180,"Lewotobi","Stratovolcano",2003,"Indonesia",-8.542,122.775,1703,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",24
+264200,"Leroboleng","Complex",2003,"Indonesia",-8.365,122.833,1095,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",4
+264220,"Iliboleng","Stratovolcano",1993,"Indonesia",-8.342,123.258,1659,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",20
+264250,"Iliwerung","Complex",2013,"Indonesia",-8.53,123.57,1018,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",15
+264270,"Sirung","Complex",2015,"Indonesia",-8.508,124.13,862,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",13
+265070,"Serua","Stratovolcano",1921,"Indonesia",-6.312,130.017,608,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",12
+265090,"Banda Api","Caldera",1988,"Indonesia",-4.523,129.881,596,"Subduction zone / Oceanic crust (< 15 km)","Dacite",27
+266020,"Ambang","Complex",2005,"Indonesia",0.75,124.42,1795,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+266030,"Soputan","Stratovolcano",2020,"Indonesia",1.112,124.737,1785,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",41
+266100,"Lokon-Empung","Stratovolcano",2015,"Indonesia",1.358,124.792,1580,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",31
+266110,"Mahawu","Stratovolcano",1977,"Indonesia",1.352,124.865,1299,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+266130,"Tangkoko-Duasudara","Stratovolcano",1880,"Indonesia",1.518,125.185,1334,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+268010,"Dukono","Complex",2020,"Indonesia",1.693,127.894,1229,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",5
+268030,"Ibu","Stratovolcano",2020,"Indonesia",1.488,127.63,1325,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",5
+268040,"Gamkonora","Stratovolcano",2007,"Indonesia",1.38,127.53,1635,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",14
+268060,"Gamalama","Stratovolcano",2018,"Indonesia",0.8,127.33,1715,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",87
+271020,"Matutum","Stratovolcano",1290,"Philippines and SE Asia",6.37,125.07,2286,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+271031,"Leonard Range","Stratovolcano",120,"Philippines and SE Asia",7.382,126.047,1080,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+271080,"Camiguin","Stratovolcano",1953,"Philippines and SE Asia",9.203,124.673,1552,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+272020,"Kanlaon","Stratovolcano",2017,"Philippines and SE Asia",10.412,123.132,2435,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",31
+272050,"Cabalían","Stratovolcano",1820,"Philippines and SE Asia",10.285,125.218,912,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+272080,"Biliran","Compound",1939,"Philippines and SE Asia",11.523,124.535,1301,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+273010,"Bulusan","Stratovolcano",2017,"Philippines and SE Asia",12.769,124.056,1535,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",24
+273042,"Isarog","Stratovolcano",-3500,"Philippines and SE Asia",13.658,123.38,1966,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+273060,"San Pablo Volcanic Field","Stratovolcano",1350,"Philippines and SE Asia",14.12,121.3,1090,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",1
+273070,"Taal","Caldera",2020,"Philippines and SE Asia",14.002,120.993,311,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",36
+273081,"Mariveles","Stratovolcano",-2050,"Philippines and SE Asia",14.527,120.482,1388,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+273083,"Pinatubo","Stratovolcano",1993,"Philippines and SE Asia",15.13,120.35,1486,"Subduction zone / Continental crust (>25 km)","Dacite",8
+273090,"Cagua","Stratovolcano",1860,"Philippines and SE Asia",18.222,122.123,1133,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+274010,"Camiguin de Babuyanes","Stratovolcano",1857,"Philippines and SE Asia",18.83,121.86,712,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",1
+274030,"Babuyan Claro","Stratovolcano",1924,"Philippines and SE Asia",19.523,121.94,1080,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",9
+275001,"Hainan Volcanic Field","Pyroclastic cone",1933,"Philippines and SE Asia",19.905,110.229,196,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+275080,"Popa","Stratovolcano",-442,"Philippines and SE Asia",20.92,95.25,1518,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+275110,"Tengchong","Pyroclastic cone",-5750,"Philippines and SE Asia",25.23,98.5,2865,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+281032,"Tatun Volcanic Group","Lava dome",648,"Japan, Taiwan, Marianas",25.178,121.553,1120,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+282020,"Io-Torishima","Complex",1968,"Japan, Taiwan, Marianas",27.881,128.223,212,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",9
+282021,"Yokoate-jima","Stratovolcano",1835,"Japan, Taiwan, Marianas",28.797,128.997,495,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",1
+282030,"Suwanosejima","Stratovolcano",2020,"Japan, Taiwan, Marianas",29.638,129.714,796,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",27
+282040,"Nakanoshima","Stratovolcano",1914,"Japan, Taiwan, Marianas",29.859,129.857,979,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",2
+282043,"Kuchinoshima","Stratovolcano",1190,"Japan, Taiwan, Marianas",29.968,129.926,628,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",4
+282050,"Kuchinoerabujima","Stratovolcano",2020,"Japan, Taiwan, Marianas",30.443,130.217,657,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",30
+282060,"Kikai","Caldera",2020,"Japan, Taiwan, Marianas",30.793,130.305,704,"Subduction zone / Oceanic crust (< 15 km)","Rhyolite",25
+282070,"Ata","Caldera",885,"Japan, Taiwan, Marianas",31.22,130.57,924,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",27
+282080,"Aira","Caldera",2020,"Japan, Taiwan, Marianas",31.593,130.657,1117,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",54
+282081,"Yonemaru-Sumiyoshiike","Maar",-6200,"Japan, Taiwan, Marianas",31.771,130.592,40,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+282090,"Kirishimayama","Shield",2018,"Japan, Taiwan, Marianas",31.934,130.862,1700,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",85
+282091,"Fukue","Shield",-400,"Japan, Taiwan, Marianas",32.657,128.849,315,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+282100,"Unzendake","Complex",1996,"Japan, Taiwan, Marianas",32.761,130.299,1483,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",15
+282110,"Asosan","Caldera",2020,"Japan, Taiwan, Marianas",32.884,131.104,1592,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",186
+282120,"Kujusan","Stratovolcano",1996,"Japan, Taiwan, Marianas",33.086,131.249,1791,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",14
+282130,"Yufu-Tsurumi","Lava dome",867,"Japan, Taiwan, Marianas",33.282,131.39,1584,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+283001,"Abu","Shield",-6850,"Japan, Taiwan, Marianas",34.5,131.6,641,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+283002,"Sanbesan","Stratovolcano",650,"Japan, Taiwan, Marianas",35.141,132.622,1126,"Subduction zone / Continental crust (>25 km)","Dacite",3
+283010,"Izu-Tobu","Pyroclastic cone",1989,"Japan, Taiwan, Marianas",34.9,139.098,1406,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",7
+283020,"Hakoneyama","Complex",2015,"Japan, Taiwan, Marianas",35.233,139.021,1438,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+283030,"Fujisan","Stratovolcano",1708,"Japan, Taiwan, Marianas",35.361,138.728,3776,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",67
+283031,"Yokodake","Stratovolcano",1200,"Japan, Taiwan, Marianas",36.087,138.32,2480,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+283040,"Ontakesan","Complex",2014,"Japan, Taiwan, Marianas",35.893,137.48,3067,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+283050,"Hakusan","Stratovolcano",1659,"Japan, Taiwan, Marianas",36.155,136.771,2702,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",26
+283060,"Norikuradake","Stratovolcano",-50,"Japan, Taiwan, Marianas",36.106,137.554,3026,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+283070,"Yakedake","Stratovolcano",1995,"Japan, Taiwan, Marianas",36.227,137.587,2455,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",38
+283080,"Midagahara","Stratovolcano",1839,"Japan, Taiwan, Marianas",36.571,137.59,2621,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+283090,"Niigata-Yakeyama","Lava dome",1998,"Japan, Taiwan, Marianas",36.921,138.036,2400,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",20
+283100,"Myokosan","Stratovolcano",-750,"Japan, Taiwan, Marianas",36.891,138.114,2454,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",10
+283110,"Asamayama","Complex",2019,"Japan, Taiwan, Marianas",36.406,138.523,2568,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",147
+283120,"Kusatsu-Shiranesan","Stratovolcano",2018,"Japan, Taiwan, Marianas",36.618,138.528,2165,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",31
+283122,"Harunasan","Stratovolcano",550,"Japan, Taiwan, Marianas",36.477,138.851,1449,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+283131,"Hiuchigatake","Stratovolcano",1544,"Japan, Taiwan, Marianas",36.955,139.285,2356,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+283140,"Nikko-Shiranesan","Shield",1952,"Japan, Taiwan, Marianas",36.799,139.376,2578,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",12
+283141,"Nantaisan","Stratovolcano",-9540,"Japan, Taiwan, Marianas",36.765,139.491,2486,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+283142,"Omanago Group","Lava dome",-3050,"Japan, Taiwan, Marianas",36.795,139.507,2341,"Subduction zone / Continental crust (>25 km)","Dacite",1
+283143,"Takaharayama","Stratovolcano",-4570,"Japan, Taiwan, Marianas",36.9,139.777,1795,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+283150,"Nasudake","Stratovolcano",1963,"Japan, Taiwan, Marianas",37.125,139.963,1915,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",21
+283151,"Numazawa","Shield",-3400,"Japan, Taiwan, Marianas",37.444,139.566,835,"Subduction zone / Continental crust (>25 km)","Dacite",1
+283160,"Bandaisan","Stratovolcano",1888,"Japan, Taiwan, Marianas",37.601,140.072,1816,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",14
+283170,"Adatarayama","Stratovolcano",1996,"Japan, Taiwan, Marianas",37.647,140.281,1728,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",13
+283180,"Azumayama","Stratovolcano",1977,"Japan, Taiwan, Marianas",37.735,140.244,1949,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",24
+283190,"Zaozan [Zaosan]","Complex",1940,"Japan, Taiwan, Marianas",38.144,140.44,1841,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",52
+283200,"Naruko","Caldera",837,"Japan, Taiwan, Marianas",38.729,140.734,470,"Subduction zone / Continental crust (>25 km)","Rhyolite",5
+283210,"Kurikomayama","Stratovolcano",1950,"Japan, Taiwan, Marianas",38.961,140.788,1627,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+283220,"Chokaisan","Stratovolcano",1974,"Japan, Taiwan, Marianas",39.099,140.049,2236,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",32
+283230,"Akita-Komagatake","Stratovolcano",1971,"Japan, Taiwan, Marianas",39.761,140.799,1637,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",18
+283240,"Iwatesan","Complex",1919,"Japan, Taiwan, Marianas",39.853,141.001,2038,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",31
+283250,"Hachimantai","Stratovolcano",-5350,"Japan, Taiwan, Marianas",39.958,140.854,1613,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+283260,"Akita-Yakeyama","Stratovolcano",1997,"Japan, Taiwan, Marianas",39.964,140.757,1366,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",17
+283262,"Megata","Maar",-2050,"Japan, Taiwan, Marianas",39.95,139.73,291,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+283270,"Iwakisan","Stratovolcano",1863,"Japan, Taiwan, Marianas",40.656,140.303,1625,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",29
+283271,"Towada","Caldera",915,"Japan, Taiwan, Marianas",40.51,140.88,1011,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+283280,"Hakkodasan","Stratovolcano",1550,"Japan, Taiwan, Marianas",40.659,140.877,1585,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+283290,"Osorezan","Stratovolcano",1787,"Japan, Taiwan, Marianas",41.279,141.12,878,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+284010,"Izu-Oshima","Stratovolcano",1990,"Japan, Taiwan, Marianas",34.724,139.394,758,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",108
+284011,"Toshima","Stratovolcano",-4550,"Japan, Taiwan, Marianas",34.52,139.279,508,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+284020,"Niijima","Lava dome",886,"Japan, Taiwan, Marianas",34.397,139.27,432,"Subduction zone / Oceanic crust (< 15 km)","Rhyolite",5
+284030,"Kozushima","Lava dome",838,"Japan, Taiwan, Marianas",34.219,139.153,572,"Subduction zone / Oceanic crust (< 15 km)","Rhyolite",5
+284040,"Miyakejima","Stratovolcano",2010,"Japan, Taiwan, Marianas",34.094,139.526,775,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",40
+284041,"Mikurajima","Stratovolcano",-4100,"Japan, Taiwan, Marianas",33.874,139.602,851,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+284050,"Hachijojima","Stratovolcano",1606,"Japan, Taiwan, Marianas",33.137,139.766,854,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",19
+284060,"Aogashima","Stratovolcano",1785,"Japan, Taiwan, Marianas",32.458,139.759,423,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",7
+284070,"Myojinsho","Submarine",1970,"Japan, Taiwan, Marianas",31.888,139.918,11,"Subduction zone / Oceanic crust (< 15 km)","Dacite",23
+284080,"Sumisujima","Submarine",1916,"Japan, Taiwan, Marianas",31.44,140.051,136,"Subduction zone / Oceanic crust (< 15 km)","Dacite",24
+284090,"Izu-Torishima","Stratovolcano",2002,"Japan, Taiwan, Marianas",30.484,140.303,394,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",7
+284100,"Kaitoku Seamount","Submarine",1984,"Japan, Taiwan, Marianas",26.127,141.102,-95,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",4
+284110,"Kita-Ioto","Stratovolcano",1945,"Japan, Taiwan, Marianas",25.424,141.284,792,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",19
+284120,"Ioto","Caldera",2012,"Japan, Taiwan, Marianas",24.751,141.289,169,"Subduction zone / Crustal thickness unknown","Trachyandesite / Basaltic Trachyandesite",23
+284131,"Minami-Hiyoshi","Submarine",1975,"Japan, Taiwan, Marianas",23.5,141.935,-107,"Subduction zone / Crustal thickness unknown","Trachyandesite / Basaltic Trachyandesite",6
+284140,"Farallon de Pajaros","Stratovolcano",1967,"Japan, Taiwan, Marianas",20.546,144.893,337,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",18
+284141,"Ahyi","Submarine",2014,"Japan, Taiwan, Marianas",20.42,145.03,-75,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",3
+284150,"Asuncion","Stratovolcano",1906,"Japan, Taiwan, Marianas",19.671,145.406,857,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",7
+284160,"Agrigan","Stratovolcano",1917,"Japan, Taiwan, Marianas",18.77,145.67,965,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",1
+284170,"Pagan","Stratovolcano",2012,"Japan, Taiwan, Marianas",18.13,145.8,570,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",24
+284200,"Anatahan","Stratovolcano",2008,"Japan, Taiwan, Marianas",16.35,145.67,790,"Subduction zone / Crustal thickness unknown","Andesite / Basaltic Andesite",4
+284211,"NW Rota-1","Submarine",2010,"Japan, Taiwan, Marianas",14.601,144.775,-517,"Subduction zone / Crustal thickness unknown","Basalt / Picro-Basalt",1
+285010,"Oshima-Oshima","Stratovolcano",1790,"Japan, Taiwan, Marianas",41.51,139.367,732,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",6
+285011,"Esan","Lava dome",1874,"Japan, Taiwan, Marianas",41.805,141.166,618,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+285020,"Hokkaido-Komagatake","Stratovolcano",2000,"Japan, Taiwan, Marianas",42.063,140.677,1131,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",24
+285030,"Toya","Stratovolcano",2001,"Japan, Taiwan, Marianas",42.544,140.839,733,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",14
+285031,"Niseko","Stratovolcano",-4900,"Japan, Taiwan, Marianas",42.875,140.659,1308,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+285032,"Yoteizan","Stratovolcano",-1050,"Japan, Taiwan, Marianas",42.827,140.812,1888,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+285034,"Kuttara","Stratovolcano",1820,"Japan, Taiwan, Marianas",42.491,141.16,549,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+285040,"Shikotsu","Caldera",1979,"Japan, Taiwan, Marianas",42.688,141.38,1320,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",43
+285050,"Tokachidake","Stratovolcano",2004,"Japan, Taiwan, Marianas",43.418,142.686,2077,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",28
+285060,"Taisetsuzan","Stratovolcano",1739,"Japan, Taiwan, Marianas",43.664,142.854,2291,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+285061,"Maruyama","Stratovolcano",1898,"Japan, Taiwan, Marianas",43.418,143.031,2013,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+285070,"Akan","Caldera",2008,"Japan, Taiwan, Marianas",43.384,144.013,1499,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",37
+285080,"Kussharo","Caldera",1320,"Japan, Taiwan, Marianas",43.615,144.427,574,"Subduction zone / Continental crust (>25 km)","Dacite",6
+285081,"Mashu","Caldera",1080,"Japan, Taiwan, Marianas",43.572,144.561,857,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+285090,"Shiretoko-Iozan","Stratovolcano",1936,"Japan, Taiwan, Marianas",44.133,145.161,1562,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+290010,"Tomariyama [Golovnin]","Caldera",1848,"Kuril Islands",43.844,145.504,535,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",3
+290020,"Raususan [Mendeleev]","Stratovolcano",1880,"Kuril Islands",43.979,145.733,882,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",3
+290030,"Chachadake [Tiatia]","Stratovolcano",1981,"Kuril Islands",44.353,146.252,1822,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",6
+290050,"Etorofu-Atosanupuri [Atosanupuri]","Stratovolcano",1932,"Kuril Islands",44.808,147.131,1206,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",2
+290070,"Etorofu-Yakeyama [Grozny Group]","Complex",2013,"Kuril Islands",45.012,147.871,1158,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",7
+290080,"Sashiusudake [Baransky]","Stratovolcano",1951,"Kuril Islands",45.1,148.019,1125,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",3
+290090,"Chirippusan [Chirip]","Stratovolcano",1860,"Kuril Islands",45.338,147.92,1587,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",2
+290100,"Moyorodake [Medvezhia]","Stratovolcano",1999,"Kuril Islands",45.389,148.838,1124,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",6
+290120,"Kolokol Group","Stratovolcano",1973,"Kuril Islands",46.042,150.083,1328,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",11
+290150,"Chirpoi","Caldera",2016,"Kuril Islands",46.532,150.871,742,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",9
+290161,"Milna","Stratovolcano",1914,"Kuril Islands",46.815,151.786,1504,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",6
+290200,"Ketoi","Stratovolcano",1960,"Kuril Islands",47.35,152.475,1172,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",5
+290220,"Rasshua","Stratovolcano",1957,"Kuril Islands",47.77,153.02,956,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",2
+290240,"Sarychev Peak","Stratovolcano",2019,"Kuril Islands",48.092,153.2,1496,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",21
+290300,"Kharimkotan","Stratovolcano",1933,"Kuril Islands",49.12,154.508,1145,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",6
+290310,"Tao-Rusyr Caldera","Stratovolcano",1952,"Kuril Islands",49.35,154.7,1325,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",2
+290360,"Chikurachki","Stratovolcano",2016,"Kuril Islands",50.324,155.461,1781,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",26
+290380,"Ebeko","Stratovolcano",2020,"Kuril Islands",50.686,156.014,1103,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",20
+290390,"Alaid","Stratovolcano",2018,"Kuril Islands",50.861,155.565,2285,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",16
+300020,"Koshelev","Stratovolcano",1690,"Kamchatka and Mainland Asia",51.356,156.753,1822,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",5
+300021,"Yavinsky","Stratovolcano",-4050,"Kamchatka and Mainland Asia",51.533,156.629,646,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300022,"Diky Greben","Lava dome",350,"Kamchatka and Mainland Asia",51.452,156.978,1040,"Subduction zone / Continental crust (>25 km)","Dacite",4
+300023,"Kurile Lake","Caldera",-6440,"Kamchatka and Mainland Asia",51.45,157.12,81,"Subduction zone / Continental crust (>25 km)","Dacite",2
+300050,"Ksudach","Stratovolcano",1907,"Kamchatka and Mainland Asia",51.844,157.572,1079,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",15
+300053,"Khodutka","Stratovolcano",-300,"Kamchatka and Mainland Asia",52.062,157.711,2039,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+300060,"Mutnovsky","Complex",2000,"Kamchatka and Mainland Asia",52.449,158.196,2288,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",45
+300070,"Gorely","Caldera",2010,"Kamchatka and Mainland Asia",52.559,158.03,1799,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",53
+300080,"Opala","Caldera",1776,"Kamchatka and Mainland Asia",52.543,157.339,2439,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",7
+300083,"Vilyuchik","Stratovolcano",-8050,"Kamchatka and Mainland Asia",52.7,158.28,2173,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+300084,"Barkhatnaya Sopka","Lava dome",-3550,"Kamchatka and Mainland Asia",52.802,158.24,874,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300100,"Avachinsky","Stratovolcano",2001,"Kamchatka and Mainland Asia",53.256,158.836,2717,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",58
+300122,"Kostakan","Pyroclastic cone",1350,"Kamchatka and Mainland Asia",53.83,158.05,1150,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",6
+300123,"Bakening","Stratovolcano",-550,"Kamchatka and Mainland Asia",53.905,158.07,2278,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+300124,"Zavaritsky","Pyroclastic cone",-800,"Kamchatka and Mainland Asia",53.905,158.385,1567,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+300125,"Akademia Nauk","Stratovolcano",1996,"Kamchatka and Mainland Asia",53.98,159.45,1180,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+300130,"Karymsky","Stratovolcano",2019,"Kamchatka and Mainland Asia",54.049,159.443,1513,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",53
+300140,"Maly Semyachik","Caldera",1952,"Kamchatka and Mainland Asia",54.135,159.674,1527,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",23
+300150,"Bolshoi Semiachik","Stratovolcano",-4450,"Kamchatka and Mainland Asia",54.32,160.02,1720,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+300170,"Uzon","Caldera",200,"Kamchatka and Mainland Asia",54.5,159.97,1617,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+300180,"Kikhpinych","Stratovolcano",1550,"Kamchatka and Mainland Asia",54.489,160.251,1506,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",8
+300190,"Krasheninnikov","Caldera",1550,"Kamchatka and Mainland Asia",54.596,160.27,1816,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",31
+300210,"Gamchen","Complex",-550,"Kamchatka and Mainland Asia",54.974,160.703,2539,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+300221,"Vysoky","Stratovolcano",-550,"Kamchatka and Mainland Asia",55.064,160.765,2129,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+300240,"Tolbachik","Shield",2013,"Kamchatka and Mainland Asia",55.832,160.326,3611,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",60
+300250,"Bezymianny","Stratovolcano",2020,"Kamchatka and Mainland Asia",55.972,160.595,2882,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",65
+300260,"Klyuchevskoy","Stratovolcano",2020,"Kamchatka and Mainland Asia",56.056,160.642,4754,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",111
+300261,"Ushkovsky","Compound",1890,"Kamchatka and Mainland Asia",56.113,160.509,3943,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+300270,"Sheveluch","Stratovolcano",2020,"Kamchatka and Mainland Asia",56.653,161.36,3283,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",105
+300273,"Cherpuk Group","Pyroclastic cone",-4550,"Kamchatka and Mainland Asia",55.55,157.47,1868,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+300360,"Bolshoi-Kekuknaysky","Shield",-5310,"Kamchatka and Mainland Asia",56.483,157.917,1401,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300450,"Alney-Chashakondzha","Stratovolcano",1600,"Kamchatka and Mainland Asia",56.656,159.647,2570,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+300560,"Titila","Shield",-550,"Kamchatka and Mainland Asia",57.406,160.108,1523,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300590,"Elovsky","Shield",-7550,"Kamchatka and Mainland Asia",57.55,160.53,1381,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300650,"Nylgimelkin","Shield",-3550,"Kamchatka and Mainland Asia",57.97,160.65,1764,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+300700,"Severny","Shield",-1550,"Kamchatka and Mainland Asia",58.28,160.87,1936,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+302030,"Udokan Plateau","Pyroclastic cone",-220,"Kamchatka and Mainland Asia",56.28,117.77,2180,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",5
+302060,"Jom-Bolok","Volcanic field",-5180,"Kamchatka and Mainland Asia",52.713,99.021,2047,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+303010,"Taryatu-Chulutu","Volcanic field",-2980,"Kamchatka and Mainland Asia",48.133,99.95,2326,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+304030,"Kunlun Volcanic Group","Pyroclastic cone",1951,"Kamchatka and Mainland Asia",35.52,80.2,5808,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",2
+305011,"Arxan-Chaihe","Pyroclastic cone",0,"Kamchatka and Mainland Asia",47.45,120.8,1677,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+305030,"Wudalianchi","Volcanic field",1776,"Kamchatka and Mainland Asia",48.72,126.12,597,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",2
+305040,"Jingbo","Volcanic field",-520,"Kamchatka and Mainland Asia",44.08,128.83,1000,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",3
+305050,"Longgang Group","Pyroclastic cone",350,"Kamchatka and Mainland Asia",42.33,126.5,1000,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+305060,"Changbaishan","Stratovolcano",1903,"Kamchatka and Mainland Asia",41.98,128.08,2744,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",10
+306030,"Ulreung","Stratovolcano",-2990,"Kamchatka and Mainland Asia",37.5,130.87,984,"Intraplate / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",3
+306040,"Halla","Shield",1007,"Kamchatka and Mainland Asia",33.361,126.53,1919,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",4
+311060,"Semisopochnoi","Stratovolcano",2020,"Alaska",51.93,179.58,1221,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",9
+311080,"Tanaga","Stratovolcano",1914,"Alaska",51.885,-178.146,1806,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",8
+311110,"Kanaga","Stratovolcano",2012,"Alaska",51.923,-177.168,1307,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",24
+311111,"Moffett","Stratovolcano",-1600,"Alaska",51.944,-176.747,1196,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",3
+311160,"Atka","Stratovolcano",1812,"Alaska",52.331,-174.139,1448,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",3
+311161,"Korovin","Stratovolcano",2007,"Alaska",52.381,-174.166,1518,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",14
+311180,"Seguam","Stratovolcano",1993,"Alaska",52.315,-172.51,1054,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",13
+311190,"Amukta","Stratovolcano",1997,"Alaska",52.5,-171.252,1066,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",8
+311210,"Yunaska","Shield",1937,"Alaska",52.643,-170.629,550,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",6
+311290,"Okmok","Shield",2008,"Alaska",53.43,-168.13,1073,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",19
+311300,"Bogoslof","Submarine",2017,"Alaska",53.93,-168.03,150,"Subduction zone / Intermediate crust (15-25 km)","Trachyandesite / Basaltic Trachyandesite",12
+311310,"Makushin","Stratovolcano",1995,"Alaska",53.891,-166.923,1800,"Subduction zone / Intermediate crust (15-25 km)","Andesite / Basaltic Andesite",28
+311320,"Akutan","Stratovolcano",1992,"Alaska",54.134,-165.986,1303,"Subduction zone / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",47
+311340,"Westdahl","Stratovolcano",1992,"Alaska",54.516,-164.65,1563,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",8
+311350,"Fisher","Stratovolcano",1830,"Alaska",54.65,-164.43,1112,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+311360,"Shishaldin","Stratovolcano",2020,"Alaska",54.756,-163.97,2857,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",50
+311390,"Amak","Stratovolcano",1796,"Alaska",55.424,-163.149,488,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+312030,"Pavlof","Stratovolcano",2016,"Alaska",55.417,-161.894,2493,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",47
+312090,"Aniakchak","Caldera",1931,"Alaska",56.88,-158.17,1341,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",18
+312110,"Chiginagak","Stratovolcano",1998,"Alaska",57.135,-156.99,2221,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+312130,"Ugashik-Peulik","Stratovolcano",1814,"Alaska",57.751,-156.368,1474,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+312131,"Ukinrek Maars","Maar",1977,"Alaska",57.832,-156.51,91,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+312140,"Martin","Stratovolcano",1953,"Alaska",58.172,-155.361,1863,"Subduction zone / Continental crust (>25 km)","Dacite",4
+312160,"Trident","Stratovolcano",1974,"Alaska",58.236,-155.1,1864,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",15
+312170,"Katmai","Stratovolcano",1912,"Alaska",58.28,-154.963,2047,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+313010,"Augustine","Lava dome",2006,"Alaska",59.363,-153.43,1252,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",23
+313020,"Iliamna","Stratovolcano",1876,"Alaska",60.032,-153.09,3053,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",17
+313040,"Spurr","Stratovolcano",1992,"Alaska",61.299,-152.251,3374,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+314010,"St. Paul Island","Shield",-1280,"Alaska",57.18,-170.3,203,"Intraplate / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",2
+314060,"Imuruk Lake","Shield",300,"Alaska",65.517,-163.45,610,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+315020,"Wrangell","Shield",1912,"Alaska",62.006,-144.017,4278,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",14
+315040,"Edgecumbe","Stratovolcano",-2220,"Alaska",57.05,-135.75,970,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+320060,"Edziza","Stratovolcano",950,"Canada and Western USA",57.72,-130.63,2786,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",4
+320080,"Hoodoo Mountain","Subglacial",-7050,"Canada and Western USA",56.78,-131.28,1850,"Intraplate / Continental crust (>25 km)","Phonolite",1
+320090,"Iskut-Unuk River Cones","Pyroclastic cone",1800,"Canada and Western USA",56.58,-130.55,1880,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",8
+320150,"Wells Gray-Clearwater","Pyroclastic cone",1550,"Canada and Western USA",52.33,-120.57,2576,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+320180,"Meager","Complex",-410,"Canada and Western USA",50.63,-123.5,2680,"Subduction zone / Continental crust (>25 km)","Dacite",1
+320200,"Garibaldi","Stratovolcano",-8060,"Canada and Western USA",49.85,-123,2678,"Subduction zone / Continental crust (>25 km)","Dacite",1
+321010,"Baker","Stratovolcano",1880,"Canada and Western USA",48.777,-121.813,3285,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",20
+321020,"Glacier Peak","Stratovolcano",1700,"Canada and Western USA",48.112,-121.113,3213,"Subduction zone / Continental crust (>25 km)","Dacite",8
+321030,"Rainier","Stratovolcano",1450,"Canada and Western USA",46.853,-121.76,4392,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",28
+321040,"Adams","Stratovolcano",950,"Canada and Western USA",46.206,-121.49,3742,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",15
+321050,"St. Helens","Stratovolcano",2008,"Canada and Western USA",46.2,-122.18,2549,"Subduction zone / Continental crust (>25 km)","Dacite",44
+321060,"West Crater","Volcanic field",-5750,"Canada and Western USA",45.88,-122.08,1329,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+321070,"Indian Heaven","Shield",-6250,"Canada and Western USA",45.93,-121.82,1806,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+322010,"Hood","Stratovolcano",1866,"Canada and Western USA",45.374,-121.695,3426,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",9
+322020,"Jefferson","Stratovolcano",950,"Canada and Western USA",44.674,-121.8,3199,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+322040,"Sand Mountain Field","Pyroclastic cone",-950,"Canada and Western USA",44.38,-121.93,1664,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+322060,"Belknap","Shield",480,"Canada and Western USA",44.285,-121.841,2095,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+322070,"Three Sisters","Complex",440,"Canada and Western USA",44.133,-121.767,3159,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+322090,"Bachelor","Stratovolcano",-5800,"Canada and Western USA",43.979,-121.688,2763,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+322100,"Davis Lake","Volcanic field",-2790,"Canada and Western USA",43.57,-121.82,2163,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+322110,"Newberry","Shield",690,"Canada and Western USA",43.722,-121.229,2434,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+322160,"Crater Lake","Caldera",-2850,"Canada and Western USA",42.93,-122.12,2487,"Subduction zone / Continental crust (>25 km)","Dacite",5
+322170,"Diamond Craters","Volcanic field",-5610,"Canada and Western USA",43.1,-118.75,1435,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+322190,"Jordan Craters","Volcanic field",-1250,"Canada and Western USA",43.147,-117.46,1473,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+323010,"Shasta","Stratovolcano",1250,"Canada and Western USA",41.409,-122.193,4317,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",23
+323020,"Medicine Lake","Shield",1060,"Canada and Western USA",41.611,-121.554,2412,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",10
+323080,"Lassen Volcanic Center","Stratovolcano",1917,"Canada and Western USA",40.492,-121.508,3187,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+323110,"Mono Lake Volcanic Field","Pyroclastic cone",1790,"Canada and Western USA",38,-119.03,2121,"Rift zone / Continental crust (>25 km)","Dacite",5
+323120,"Mono-Inyo Craters","Lava dome",1380,"Canada and Western USA",37.804,-119.029,2796,"Rift zone / Continental crust (>25 km)","Rhyolite",13
+323150,"Mammoth Mountain","Lava dome",1260,"Canada and Western USA",37.631,-119.032,3369,"Rift zone / Continental crust (>25 km)","Trachyte / Trachydacite",2
+323160,"Ubehebe Craters","Maar",-150,"Canada and Western USA",37.02,-117.45,752,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+323170,"Golden Trout Creek","Volcanic field",-5550,"Canada and Western USA",36.358,-118.32,2886,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+323200,"Salton Buttes","Lava dome",210,"Canada and Western USA",33.197,-115.616,-40,"Rift zone / Continental crust (>25 km)","Rhyolite",3
+324010,"Black Butte Crater Lava Field","Shield",-8400,"Canada and Western USA",43.183,-114.352,1478,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+324020,"Craters of the Moon","Pyroclastic cone",-130,"Canada and Western USA",43.42,-113.5,2005,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",14
+324030,"Wapi Lava Field","Shield",-300,"Canada and Western USA",42.88,-113.22,1604,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+324040,"Hell's Half Acre","Shield",-3250,"Canada and Western USA",43.5,-112.45,1631,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+325010,"Yellowstone","Caldera",-1350,"Canada and Western USA",44.43,-110.67,2805,"Rift zone / Continental crust (>25 km)","Rhyolite",4
+327040,"Markagunt Plateau","Volcanic field",1050,"Canada and Western USA",37.58,-112.67,2840,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+327050,"Black Rock Desert","Volcanic field",1290,"Canada and Western USA",38.97,-112.5,1800,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+327110,"Carrizozo","Pyroclastic cone",-3250,"Canada and Western USA",33.78,-105.93,1731,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+327120,"Zuni-Bandera","Volcanic field",-1170,"Canada and Western USA",34.8,-108,2550,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+327812,"Red Hill","Volcanic field",-9450,"Canada and Western USA",34.25,-108.83,2300,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+329010,"Uinkaret Field","Volcanic field",1100,"Canada and Western USA",36.38,-113.13,1555,"Rift zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+329020,"San Francisco Volcanic Field","Pyroclastic cone",1075,"Canada and Western USA",35.347,-111.678,3850,"Rift zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+331010,"Endeavour Segment","Submarine",-3490,"Hawaii and Pacific Ocean",47.95,-129.1,-2050,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+331020,"CoAxial Segment","Submarine",1993,"Hawaii and Pacific Ocean",46.52,-129.58,-2400,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+331021,"Axial Seamount","Submarine",2015,"Hawaii and Pacific Ocean",45.95,-130,-1410,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",12
+331030,"Cleft Segment","Submarine",1986,"Hawaii and Pacific Ocean",44.83,-130.3,-2140,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+332010,"Kilauea","Shield",2018,"Hawaii and Pacific Ocean",19.421,-155.287,1222,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",96
+332020,"Mauna Loa","Shield",1984,"Hawaii and Pacific Ocean",19.475,-155.608,4170,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",110
+332030,"Mauna Kea","Shield",-2460,"Hawaii and Pacific Ocean",19.82,-155.47,4205,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",6
+332040,"Hualalai","Shield",1801,"Hawaii and Pacific Ocean",19.692,-155.87,2523,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",22
+332060,"Haleakala","Shield",1750,"Hawaii and Pacific Ocean",20.708,-156.25,3055,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",40
+334050,"Northern EPR at 9.8°N","Submarine",2006,"Hawaii and Pacific Ocean",9.83,-104.3,-2500,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",17
+334070,"Galapagos Rift","Submarine",1996,"Hawaii and Pacific Ocean",0.792,-86.15,-2430,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+341020,"Barcena","Pyroclastic cone",1953,"México and Central America",19.3,-110.82,332,"Rift zone / Oceanic crust (< 15 km)","Trachyte / Trachydacite",1
+341021,"Socorro","Shield",1994,"México and Central America",18.78,-110.95,1050,"Rift zone / Oceanic crust (< 15 km)","Trachyte / Trachydacite",6
+341030,"Ceboruco","Stratovolcano",1875,"México and Central America",21.125,-104.508,2280,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+341040,"Colima","Stratovolcano",2019,"México and Central America",19.514,-103.62,3850,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",86
+341060,"Michoacan-Guanajuato","Pyroclastic cone",1952,"México and Central America",19.85,-101.75,3860,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+341061,"Zitacuaro-Valle de Bravo","Caldera",-3050,"México and Central America",19.4,-100.25,3500,"Subduction zone / Continental crust (>25 km)","Dacite",1
+341070,"Toluca, Nevado de","Stratovolcano",-1350,"México and Central America",19.108,-99.758,4680,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+341080,"Chichinautzin","Volcanic field",400,"México and Central America",19.08,-99.13,3930,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+341090,"Popocatepetl","Stratovolcano",2020,"México and Central America",19.023,-98.622,5393,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",46
+341093,"Humeros, Los","Caldera",-4470,"México and Central America",19.68,-97.45,3150,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+341095,"Naolinco Volcanic Field","Pyroclastic cone",-1200,"México and Central America",19.67,-96.75,2000,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+341096,"Cofre de Perote","Shield",1150,"México and Central America",19.492,-97.15,4282,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+341098,"Cumbres,  Las","Stratovolcano",-3920,"México and Central America",19.15,-97.27,3940,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+341100,"Orizaba, Pico de","Stratovolcano",1846,"México and Central America",19.03,-97.27,5564,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",27
+341110,"San Martin","Shield",1796,"México and Central America",18.57,-95.2,1650,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",16
+341120,"Chichon, El","Lava dome",1982,"México and Central America",17.36,-93.228,1150,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",13
+341130,"Tacana","Stratovolcano",1986,"México and Central America",15.132,-92.109,4064,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+342030,"Santa Maria","Stratovolcano",2020,"México and Central America",14.757,-91.552,3745,"Subduction zone / Continental crust (>25 km)","Dacite",3
+342040,"Almolonga","Stratovolcano",1818,"México and Central America",14.797,-91.519,3173,"Subduction zone / Continental crust (>25 km)","Dacite",6
+342080,"Acatenango","Stratovolcano",1972,"México and Central America",14.501,-90.876,3976,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",8
+342090,"Fuego","Stratovolcano",2020,"México and Central America",14.473,-90.88,3763,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",79
+342110,"Pacaya","Complex",2020,"México and Central America",14.382,-90.601,2569,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",36
+342120,"Tecuamburro","Stratovolcano",-960,"México and Central America",14.156,-90.407,1845,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+343020,"Santa Ana","Stratovolcano",2005,"México and Central America",13.853,-89.63,2381,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",19
+343050,"San Salvador","Stratovolcano",1917,"México and Central America",13.734,-89.294,1893,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+343060,"Ilopango","Caldera",1880,"México and Central America",13.672,-89.053,450,"Subduction zone / Continental crust (>25 km)","Dacite",2
+344010,"Cosiguina","Stratovolcano",1859,"México and Central America",12.98,-87.57,872,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+344020,"San Cristobal","Stratovolcano",2019,"México and Central America",12.702,-87.004,1745,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",35
+344040,"Telica","Stratovolcano",2018,"México and Central America",12.606,-86.84,1036,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",50
+344070,"Negro, Cerro","Pyroclastic cone",1999,"México and Central America",12.506,-86.702,728,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",24
+344080,"Pilas, Las","Complex",1954,"México and Central America",12.495,-86.688,1088,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+344090,"Momotombo","Stratovolcano",2016,"México and Central America",12.423,-86.539,1270,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",22
+344091,"Apoyeque","Pyroclastic shield",-50,"México and Central America",12.242,-86.342,518,"Subduction zone / Continental crust (>25 km)","Dacite",4
+344092,"Nejapa-Miraflores","Fissure vent",1060,"México and Central America",12.12,-86.32,360,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",8
+344100,"Masaya","Caldera",2020,"México and Central America",11.985,-86.165,594,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",42
+344120,"Concepcion","Stratovolcano",2011,"México and Central America",11.538,-85.622,1700,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",34
+345020,"Rincon de la Vieja","Complex",2020,"México and Central America",10.83,-85.324,1916,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",33
+345030,"Miravalles","Stratovolcano",1946,"México and Central America",10.748,-85.153,2028,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+345033,"Arenal","Stratovolcano",2010,"México and Central America",10.463,-84.703,1670,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",28
+345040,"Poas","Stratovolcano",2019,"México and Central America",10.2,-84.233,2708,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",60
+345050,"Barva","Complex",-6050,"México and Central America",10.135,-84.1,2906,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+345060,"Irazu","Stratovolcano",1994,"México and Central America",9.979,-83.852,3432,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",39
+345070,"Turrialba","Stratovolcano",2019,"México and Central America",10.025,-83.767,3340,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",21
+351012,"Bravo, Cerro","Stratovolcano",1720,"South America",5.091,-75.293,3985,"Subduction zone / Continental crust (>25 km)","Dacite",8
+351020,"Ruiz, Nevado del","Stratovolcano",2020,"South America",4.892,-75.324,5279,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",27
+351021,"Santa Isabel","Shield",-850,"South America",4.818,-75.365,4944,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+351030,"Tolima, Nevado del","Stratovolcano",1943,"South America",4.658,-75.33,5215,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",12
+351060,"Purace","Stratovolcano",1977,"South America",2.32,-76.4,4650,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",25
+351080,"Galeras","Complex",2014,"South America",1.22,-77.37,4276,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",42
+351100,"Cumbal","Stratovolcano",1926,"South America",0.95,-77.87,4764,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+351110,"Chiles-Cerro Negro","Stratovolcano",1936,"South America",0.817,-77.938,4698,"Subduction zone / Continental crust (>25 km)","Dacite",1
+352002,"Chachimbiro","Stratovolcano",-3740,"South America",0.468,-78.287,4106,"Subduction zone / Continental crust (>25 km)","Dacite",1
+352003,"Cuicocha","Caldera",650,"South America",0.308,-78.364,3246,"Subduction zone / Continental crust (>25 km)","Dacite",4
+352004,"Imbabura","Compound",-5550,"South America",0.258,-78.183,4609,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+352006,"Cayambe","Compound",1786,"South America",0.029,-77.986,5790,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",22
+352010,"Reventador","Stratovolcano",2020,"South America",-0.077,-77.656,3562,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",26
+352011,"Pululahua","Caldera",290,"South America",0.038,-78.463,3356,"Subduction zone / Continental crust (>25 km)","Dacite",4
+352020,"Guagua Pichincha","Stratovolcano",2002,"South America",-0.171,-78.598,4784,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",44
+352021,"Atacazo","Stratovolcano",-320,"South America",-0.353,-78.617,4463,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+352022,"Chacana","Caldera",1773,"South America",-0.375,-78.25,4643,"Subduction zone / Continental crust (>25 km)","Rhyolite",5
+352030,"Antisana","Stratovolcano",1802,"South America",-0.481,-78.141,5753,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",3
+352031,"Aliso","Stratovolcano",-2450,"South America",-0.53,-78,4267,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+352040,"Sumaco","Stratovolcano",1895,"South America",-0.538,-77.626,3990,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",3
+352050,"Cotopaxi","Stratovolcano",2016,"South America",-0.677,-78.436,5911,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",85
+352090,"Sangay","Stratovolcano",2020,"South America",-2.005,-78.341,5286,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",11
+353011,"Ecuador","Shield",1150,"South America",-0.02,-91.546,790,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+353030,"Darwin","Shield",1813,"South America",-0.18,-91.28,1330,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+353040,"Alcedo","Shield",1993,"South America",-0.43,-91.12,1130,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+353050,"Negra, Sierra","Shield",2018,"South America",-0.83,-91.17,1124,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",18
+353060,"Azul, Cerro","Shield",2008,"South America",-0.92,-91.408,1640,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",15
+353090,"Santiago","Shield",1906,"South America",-0.22,-90.77,920,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+354000,"Quimsachata","Lava dome",-4450,"South America",-14.176,-71.351,3693,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+354004,"Andahua-Orcopampa","Pyroclastic cone",1490,"South America",-15.42,-72.33,4713,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",4
+354005,"Huambo","Volcanic field",-700,"South America",-15.83,-72.13,4550,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",1
+354006,"Sabancaya","Stratovolcano",2020,"South America",-15.787,-71.857,5960,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",14
+354030,"Huaynaputina","Stratovolcano",1600,"South America",-16.608,-70.85,4850,"Subduction zone / Continental crust (>25 km)","Dacite",2
+354040,"Tutupaca","Stratovolcano",1802,"South America",-17.026,-70.372,5801,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+354050,"Yucamane","Stratovolcano",-1320,"South America",-17.184,-70.196,5495,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+355011,"Taapaca","Complex",-320,"South America",-18.1,-69.5,5860,"Subduction zone / Continental crust (>25 km)","Dacite",8
+355012,"Parinacota","Stratovolcano",290,"South America",-18.166,-69.142,6336,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",6
+355070,"San Pedro-San Pablo","Stratovolcano",1960,"South America",-21.888,-68.391,6142,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",10
+355100,"Lascar","Stratovolcano",2017,"South America",-23.37,-67.73,5592,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",36
+355130,"Ojos del Salado, Nevados","Stratovolcano",750,"South America",-27.109,-68.541,6879,"Subduction zone / Continental crust (>25 km)","Dacite",2
+355210,"Blanco, Cerro","Caldera",-2300,"South America",-26.789,-67.765,4670,"Subduction zone / Continental crust (>25 km)","Rhyolite",1
+357010,"Tupungatito","Stratovolcano",1987,"South America",-33.425,-69.797,5660,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",20
+357020,"San Jose","Stratovolcano",1960,"South America",-33.789,-69.895,6070,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",9
+357021,"Maipo","Caldera",1912,"South America",-34.164,-69.832,5323,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",13
+357030,"Tinguiririca","Stratovolcano",1917,"South America",-34.814,-70.352,4280,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+357040,"Planchon-Peteroa","Stratovolcano",2019,"South America",-35.223,-70.568,3977,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",24
+357041,"Infiernillo","Volcanic field",-6890,"South America",-35.123,-69.9,3007,"Intraplate / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+357050,"Descabezado Grande","Stratovolcano",1933,"South America",-35.58,-70.75,3953,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",1
+357060,"Azul, Cerro","Stratovolcano",1967,"South America",-35.653,-70.761,3788,"Subduction zone / Continental crust (>25 km)","Dacite",11
+357061,"Maule, Laguna del","Caldera",-50,"South America",-36.058,-70.492,2162,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+357066,"Payun Matru","Shield",-5050,"South America",-36.422,-69.241,3715,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",1
+357070,"Chillan, Nevados de","Stratovolcano",2020,"South America",-36.868,-71.378,3180,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",32
+357072,"Tromen","Stratovolcano",1822,"South America",-37.144,-70.033,4114,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+357080,"Antuco","Stratovolcano",1869,"South America",-37.406,-71.349,2979,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",16
+357090,"Copahue","Stratovolcano",2019,"South America",-37.856,-71.183,2953,"Subduction zone / Continental crust (>25 km)","Trachybasalt / Tephrite Basanite",18
+357091,"Callaqui","Stratovolcano",1980,"South America",-37.92,-71.45,3164,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+357093,"Tolhuaca","Stratovolcano",-4000,"South America",-38.31,-71.645,2739,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",4
+357100,"Lonquimay","Stratovolcano",1990,"South America",-38.379,-71.586,2832,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+357110,"Llaima","Stratovolcano",2009,"South America",-38.692,-71.729,3125,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",58
+357111,"Sollipulli","Caldera",1240,"South America",-38.97,-71.52,2282,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+357112,"Caburgua-Huelemolle","Pyroclastic cone",-5050,"South America",-39.25,-71.75,1652,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+357120,"Villarrica","Stratovolcano",2020,"South America",-39.42,-71.93,2847,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",164
+357121,"Quetrupillan","Stratovolcano",255,"South America",-39.496,-71.722,2360,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",5
+357122,"Lanin","Stratovolcano",560,"South America",-39.637,-71.502,3776,"Subduction zone / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",8
+357123,"Huanquihue Group","Stratovolcano",1750,"South America",-39.887,-71.58,2189,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+357130,"Mocho-Choshuenco","Stratovolcano",1937,"South America",-39.927,-72.027,2422,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+357140,"Carran-Los Venados","Pyroclastic cone",1979,"South America",-40.35,-72.07,1114,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+357150,"Puyehue-Cordon Caulle","Stratovolcano",2012,"South America",-40.59,-72.117,2236,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",26
+357153,"Antillanca Volcanic Complex","Stratovolcano",-230,"South America",-40.783,-72.15,1979,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+357160,"Puntiagudo-Cordon Cenizos","Stratovolcano",1850,"South America",-40.969,-72.264,2493,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",2
+358010,"Osorno","Stratovolcano",1869,"South America",-41.105,-72.496,2659,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",18
+358012,"Cayutue-La Vigueria","Pyroclastic cone",-190,"South America",-41.25,-72.27,506,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+358020,"Calbuco","Stratovolcano",2015,"South America",-41.33,-72.618,1974,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",37
+358024,"Apagado","Pyroclastic cone",-590,"South America",-41.88,-72.58,1210,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+358030,"Huequi","Lava dome",1920,"South America",-42.377,-72.578,1318,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",7
+358040,"Michinmahuida","Stratovolcano",1835,"South America",-42.799,-72.445,2452,"Subduction zone / Continental crust (>25 km)","Andesite / Basaltic Andesite",10
+358057,"Hudson, Cerro","Stratovolcano",2011,"South America",-45.9,-72.97,1905,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",15
+358062,"Aguilera","Stratovolcano",-1250,"South America",-50.33,-73.75,2546,"Subduction zone / Continental crust (>25 km)","Dacite",2
+358063,"Reclus","Pyroclastic cone",1908,"South America",-50.964,-73.585,1000,"Subduction zone / Continental crust (>25 km)","Dacite",4
+358080,"Pali-Aike Volcanic Field","Pyroclastic cone",-5550,"South America",-52.082,-69.698,282,"Subduction zone / Continental crust (>25 km)","Basalt / Picro-Basalt",1
+360010,"Saba","Stratovolcano",1640,"West Indies",17.63,-63.23,887,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",1
+360020,"Quill, The","Stratovolcano",250,"West Indies",17.478,-62.96,601,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",3
+360030,"Liamuiga","Stratovolcano",160,"West Indies",17.37,-62.8,1156,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",5
+360050,"Soufriere Hills","Stratovolcano",2013,"West Indies",16.72,-62.18,915,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",9
+360060,"Soufriere Guadeloupe","Stratovolcano",1977,"West Indies",16.044,-61.664,1467,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",22
+360100,"Trois Pitons, Morne","Complex",920,"West Indies",15.37,-61.33,1387,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",2
+360101,"Watt, Morne","Stratovolcano",1997,"West Indies",15.307,-61.305,1224,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",5
+360110,"Plat Pays, Morne","Stratovolcano",1270,"West Indies",15.255,-61.341,940,"Subduction zone / Oceanic crust (< 15 km)","Dacite",4
+360120,"Pelee","Stratovolcano",1932,"West Indies",14.809,-61.165,1394,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",54
+360140,"Qualibou","Caldera",1766,"West Indies",13.83,-61.05,777,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",1
+360150,"Soufriere St. Vincent","Stratovolcano",1979,"West Indies",13.33,-61.18,1220,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",22
+360160,"Kick 'em Jenny","Submarine",2017,"West Indies",12.3,-61.64,-185,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",15
+370030,"Ljosufjoll","Fissure vent",960,"Iceland and Arctic Ocean",64.9,-22.483,1063,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",5
+371020,"Reykjanes","Crater rows",1831,"Iceland and Arctic Ocean",63.85,-22.566,140,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",22
+371030,"Krysuvik","Crater rows",1340,"Iceland and Arctic Ocean",63.883,-22.083,360,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",11
+371040,"Brennisteinsfjoll","Crater rows",1341,"Iceland and Arctic Ocean",63.933,-21.783,610,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",9
+371050,"Hengill","Crater rows",150,"Iceland and Arctic Ocean",64.083,-21.416,803,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",13
+371060,"Grimsnes","Crater rows",-3500,"Iceland and Arctic Ocean",64.05,-20.883,200,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",11
+371070,"Prestahnukur","Subglacial",-3350,"Iceland and Arctic Ocean",64.583,-20.666,1385,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+371080,"Langjokull","Subglacial",950,"Iceland and Arctic Ocean",64.85,-19.7,1100,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",6
+372010,"Vestmannaeyjar","Submarine",1973,"Iceland and Arctic Ocean",63.416,-20.266,283,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",10
+372020,"Eyjafjallajokull","Stratovolcano",2010,"Iceland and Arctic Ocean",63.633,-19.633,1651,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",5
+372030,"Katla","Subglacial",1918,"Iceland and Arctic Ocean",63.633,-19.083,1490,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",132
+372050,"Torfajokull","Stratovolcano",1477,"Iceland and Arctic Ocean",63.892,-19.122,1280,"Rift zone / Oceanic crust (< 15 km)","Rhyolite",10
+372070,"Hekla","Stratovolcano",2000,"Iceland and Arctic Ocean",63.983,-19.666,1490,"Rift zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",65
+373010,"Grimsvotn","Caldera",2011,"Iceland and Arctic Ocean",64.416,-17.316,1719,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",86
+373030,"Bardarbunga","Stratovolcano",2015,"Iceland and Arctic Ocean",64.633,-17.516,2000,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",55
+373050,"Kverkfjoll","Stratovolcano",1968,"Iceland and Arctic Ocean",64.653,-16.647,1930,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",8
+373060,"Askja","Stratovolcano",1961,"Iceland and Arctic Ocean",65.033,-16.783,1080,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",14
+373070,"Fremrinamar","Stratovolcano",-1200,"Iceland and Arctic Ocean",65.416,-16.666,970,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",5
+373080,"Krafla","Caldera",1984,"Iceland and Arctic Ocean",65.715,-16.728,800,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",24
+373090,"Theistareykir","Shield",-900,"Iceland and Arctic Ocean",65.833,-17.166,540,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+373100,"Tjornes Fracture Zone","Submarine",1868,"Iceland and Arctic Ocean",66.309,-17.118,-75,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+374010,"Oraefajokull","Stratovolcano",1728,"Iceland and Arctic Ocean",64.05,-16.633,2010,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+376010,"Jan Mayen","Stratovolcano",1985,"Iceland and Arctic Ocean",71.082,-8.155,2197,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",8
+382001,"Flores","Stratovolcano",-950,"Atlantic Ocean",39.462,-31.216,914,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+382010,"Fayal","Stratovolcano",1958,"Atlantic Ocean",38.6,-28.73,1043,"Rift zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",2
+382020,"Pico","Stratovolcano",1720,"Atlantic Ocean",38.47,-28.4,2351,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",4
+382040,"Graciosa","Stratovolcano",-1950,"Atlantic Ocean",39.02,-27.97,402,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+382050,"Terceira","Stratovolcano",2000,"Atlantic Ocean",38.73,-27.32,1023,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",15
+382080,"Sete Cidades","Stratovolcano",1880,"Atlantic Ocean",37.87,-25.78,856,"Rift zone / Oceanic crust (< 15 km)","Trachyte / Trachydacite",16
+382081,"Picos Volcanic System","Pyroclastic cone",1652,"Atlantic Ocean",37.78,-25.67,350,"Rift zone / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",7
+382090,"Agua de Pau","Stratovolcano",1564,"Atlantic Ocean",37.77,-25.47,947,"Rift zone / Oceanic crust (< 15 km)","Trachyte / Trachydacite",10
+382100,"Furnas","Stratovolcano",1630,"Atlantic Ocean",37.77,-25.32,805,"Rift zone / Oceanic crust (< 15 km)","Trachyte / Trachydacite",9
+382120,"Madeira","Shield",-4500,"Atlantic Ocean",32.73,-16.97,1862,"Intraplate / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",1
+383010,"La Palma","Stratovolcano",1971,"Atlantic Ocean",28.57,-17.83,2426,"Intraplate / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",13
+383020,"Hierro","Shield",2012,"Atlantic Ocean",27.73,-18.03,1500,"Intraplate / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",7
+383030,"Tenerife","Stratovolcano",1909,"Atlantic Ocean",28.271,-16.641,3715,"Intraplate / Oceanic crust (< 15 km)","Phonolite",46
+383040,"Gran Canaria","Fissure vent",40,"Atlantic Ocean",28,-15.58,1950,"Intraplate / Intermediate crust (15-25 km)","Trachybasalt / Tephrite Basanite",11
+383060,"Lanzarote","Fissure vent",1824,"Atlantic Ocean",29.03,-13.63,670,"Intraplate / Intermediate crust (15-25 km)","Basalt / Picro-Basalt",4
+384010,"Fogo","Stratovolcano",2015,"Atlantic Ocean",14.95,-24.35,2829,"Intraplate / Intermediate crust (15-25 km)","Foidite",12
+385050,"Ascension","Stratovolcano",1508,"Atlantic Ocean",-7.95,-14.37,858,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",3
+386010,"Tristan da Cunha","Shield",1962,"Atlantic Ocean",-37.092,-12.28,2060,"Rift zone / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",2
+386020,"Bouvet","Shield",-50,"Atlantic Ocean",-54.408,3.351,741,"Rift zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+390010,"Buckle Island","Stratovolcano",1899,"Antarctica",-66.78,163.25,1239,"Rift zone / Oceanic crust (< 15 km)","Trachybasalt / Tephrite Basanite",2
+390013,"Pleiades, The","Stratovolcano",-1050,"Antarctica",-72.67,165.5,3040,"Intraplate / Continental crust (>25 km)","Trachyandesite / Basaltic Trachyandesite",1
+390015,"Melbourne","Stratovolcano",1892,"Antarctica",-74.35,164.7,2732,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",1
+390020,"Erebus","Stratovolcano",2020,"Antarctica",-77.53,167.17,3794,"Intraplate / Continental crust (>25 km)","Phonolite",22
+390022,"Berlin","Shield",-8350,"Antarctica",-76.05,-136,3478,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",1
+390027,"Takahe","Shield",-5550,"Antarctica",-76.28,-112.08,3460,"Intraplate / Continental crust (>25 km)","Trachyte / Trachydacite",3
+390028,"Hudson Mountains","Stratovolcano",-210,"Antarctica",-74.33,-99.42,749,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",2
+390030,"Deception Island","Caldera",1970,"Antarctica",-63.001,-60.652,602,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",30
+390031,"Penguin Island","Stratovolcano",1905,"Antarctica",-62.1,-57.93,180,"Intraplate / Continental crust (>25 km)","Basalt / Picro-Basalt",3
+390070,"Southern Thule","Stratovolcano",1975,"Antarctica",-59.442,-27.225,1075,"Subduction zone / Oceanic crust (< 15 km)","Andesite / Basaltic Andesite",1
+390080,"Bristol Island","Stratovolcano",2016,"Antarctica",-59.017,-26.533,1100,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",6
+390081,"Montagu Island","Shield",2007,"Antarctica",-58.445,-26.374,1370,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",2
+390090,"Saunders","Stratovolcano",2020,"Antarctica",-57.8,-26.483,843,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",9
+390100,"Candlemas Island","Stratovolcano",1911,"Antarctica",-57.08,-26.67,550,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",4
+390130,"Zavodovski","Stratovolcano",2016,"Antarctica",-56.3,-27.57,551,"Subduction zone / Oceanic crust (< 15 km)","Basalt / Picro-Basalt",5
+390140,"Protector Seamounts","Submarine",1962,"Antarctica",-55.912,-28.167,-55,"Subduction zone / Oceanic crust (< 15 km)","Rhyolite",1
