@@ -1,0 +1,477 @@
+---
+title: "Final Project"
+author: "Hwanho Kim"
+date: "2025-04-26"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: true
+    number_sections: true
+    extra_dependencies: ["setspace"]
+    includes:
+      in_header: header.tex
+fontsize: 11pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,      # Do not show code
+  warning = FALSE,   # Do not show warnings
+  error = FALSE,     # Do not show errors
+  message = FALSE    # Do not show messages
+)
+## libraries we are using 
+library(readr)
+library(tidyverse)
+library(tidyverse)
+library(rjags)
+library(coda)
+library(gridExtra)
+library(ggplot2)
+library(patchwork)
+############################
+
+# load data
+stock <- read_csv("C:/Users/w6614/Desktop/OSU/2025 Spring Semester/STAT 3303 - Stat Dec Making/Project/dataset16.csv")
+#View(stock)
+```
+
+# Abstract
+This project predicts the probability that each stock will have a positive return in the future by using the hierarchical Bayesian model. In the data, each stock will have 1 if that stock had a positive return in that period, 0 otherwise. I treat the outcome of the observed stocks as Bernoulli outcomes, and the probability of the stock is affected by the industry to which the stock belongs. Each stock’s probability of a positive return is assumed to arise from a sector-level Beta distribution with the parameters reflecting market uncertainty. The Exploratory Data Analysis process will show the differences not only among stocks but also among sectors, and we can summarize our data numerically and graphically. I fit the model using Markov Chain Monte Carlo (MCMC) methods with JAGS and diagnose convergence. Posterior analysis allows us to estimate the probability that each sector offers the best investment opportunities, and to distinguish the most promising stock within each sector.
+
+# Data
+## Input Data Description
+The dataset shows us the return record of 50 stocks in different periods, and each stock belongs to one of 5 sectors. Individual stocks are observed over 30 periods, and they have 1 if that stock in a specific sector had a positive return, 0 otherwise. The dataset has 3 columns: sectors, stock, and flip, and each row represents whether a stock within a specific sector had a positive return in that period or not. The dataset has 5 sectors, and each sector contains 10 stocks. Thus, there are 1,5000 observations total in the dataset (50 stocks x 30 periods each).
+
+We have only 30 periods for each stock, which is a relatively small number of stocks to clarify the uncertainty in parameter estimates. Also, we assume that returns within each stock are independently and identically distributed. These limitations of the dataset enable our model to process easily and plausibly.
+
+
+## Explanatory Data Analysis
+In this project, the goal of EDA was to summarize the dataset in terms of market, sector (industry), and stock. Overall, the dataset consists of 1,500 observations, each binary outcome representing whether or not a specific stock in a certain sector had a positive return during the given period.
+
+```{r, fig.width=5, fig.height=2}
+# 1. Basic table: number of 0s and 1s
+
+# Make the basic table
+flip_table <- table(stock$flip)
+
+# Convert it into a tidy data frame
+flip_summary <- data.frame(
+  Flip = as.numeric(names(flip_table)),
+  Count = as.numeric(flip_table),
+  Proportion = round(as.numeric(flip_table) / sum(flip_table), 4)
+)
+
+# Render it as a nice table
+knitr::kable(flip_summary, caption = "Table 1: Summary of Flip Outcomes")
+
+```
+In a market aspect, I count the number of 0 and 1, and compare them on a proportion scale. In this market, 721 stocks had negative returns, and 779 stocks had positive returns. In other words, 48.067 percent of stocks had negative returns, and 51.933 percent of stocks had positive returns.
+
+```{r, fig.width=5, fig.height=2}
+stock_summary <- stock %>%
+  group_by(sector, stock) %>%
+  summarize(success_rate = mean(flip),
+            num_obs = n(),
+            .groups = "drop")
+
+# 4. Plot: Histogram of stock success rates
+ggplot(stock_summary, aes(x = success_rate)) +
+  geom_histogram(binwidth = 0.05, boundary = 0, color = "black", fill = "skyblue") +
+  labs(title = "Histogram of Stock Success Rates",
+       x = "Success Rate (Proportion of Positive Returns)",
+       y = "Number of Stocks")
+```
+
+In the stock aspect, individual stocks show various success rates, ranging approximately from 0.33 to 0.73. The wide probability range demonstrates that each stock have a different success rate, and the probability of a positive return for each stock is affected by other factors. In the histogram, the success rate is more focused on the interval [0.4, 0.5] and [0.5, 0.6]. We can conclude that each stock has a different probability of positive return, and the distribution is focused on a near 0.5 success rate interval.
+
+
+```{r, fig.width=7, fig.height=2}
+# 3. Mean flip (success rate) per sector
+mean_flip_per_sector <- stock %>%
+  group_by(sector) %>%
+  summarize(
+    sector_success_rate = round(mean(flip), 4),
+    .groups = "drop"
+)
+
+# 5. Plot: Boxplot of success rates across sectors
+sector_boxplot <- ggplot(stock_summary, aes(x = factor(sector), y = success_rate)) +
+  geom_boxplot(fill = "lightgreen") +
+  labs(title = "Boxplot of Success Rates by Sector",
+       x = "Sector",
+       y = "Stock Success Rate") +
+  theme_minimal()
+
+# Make table a grob
+sector_table_grob <- tableGrob(mean_flip_per_sector)
+
+# Convert table grob into a ggplot object
+sector_table_plot <- ggplot() + 
+  annotation_custom(sector_table_grob) + 
+  theme_void()
+
+# Combine table plot and boxplot
+sector_table_plot + sector_boxplot
+
+```
+In the sector aspect, they have quite different rates of success, even thoughthe rates are close with 0.5. The table and box plot have different means because I try to group the data by sector, and calculate the mean for the table while I use summary of data which is grouped by sector and plotted as box plot. However, these two clearly show that different industry affect to the probability of stocks within that.
+
+# Model
+## Model Selection
+I use a hierarchical Bayesian model to predict the probability that a stock produces a positive return. The model has three levels: individual observations, sectors, and the overall market.
+
+### Observation Level
+$y_{ijt} \sim Bernouli(\theta_{ij})$
+where $i = {1, 2, 3, .... 10}$, $j = {1, 2, 3, 4, 5}$, $t = {1, 2, 3, ... 30}$
+
+For each stock i in sector j in period t, $y_{ijt}$ will have 1 if it has a positive return.
+
+$y_{ijt}$ model each flip given the stock's positive return probability.
+
+### Stock Level
+$\theta_{ij} \sim Beta(\alpha_j, \beta_j)$
+
+This variable models each stock's success probability inside each sector.
+
+$\theta_{ij}$ is the probability of positive return of stock i in sector j.
+
+$\alpha_j$ and $\beta_j$ are parameters controlling the mean and variance of success rates within sector j.
+
+### Sector Level
+$\alpha_j \sim Gamma(2, 0.1)$, $\beta_j \sim Gamma(2, 0.1)$
+
+The parameters $\alpha_j$ and $\beta_j$ have weakly informative priors.
+
+This model uncertainty across sectors.
+
+## Justification
+This hierarchical structure considers not only the variability of stocks within the sector but also the variability between sectors, and parameters are affected by the previous level’s parameters. Therefore, a hierarchical Bayesian model is appropriate for modeling the flip.
+
+## Model Building
+I implement the hierarchical Bayesian model using the rjags package in R to perform Markov Chain Monte Carlo (MCMC) sampling.
+For the algorithm setting, I use 3 chains, and 10,000 iterations occur per chain, total of 30,000 iterations. The model will use the first 5,000 iterations as a Burn-in period.
+The model will use random starting values for the parameters.
+For example, $\theta_{i,j}$ will be initialized by a random value from a $Beta(1, 1)$ distribution.
+
+```{r, include=FALSE, fig.width=8, fig.height=4}
+source("model_run.R")
+```
+
+
+## Convergence Diagnostics
+
+```{r, fig.width=7, fig.height=2}
+# Theta traceplot and density
+par(mfrow = c(1, 2))  # 1 row, 2 plots
+traceplot(samples[, "theta[1]"], main = "Traceplot for theta[1]")
+densplot(samples[, "theta[1]"], main = "Density Plot for theta[1]")
+
+# Alpha traceplot and density
+par(mfrow = c(1, 2))
+traceplot(samples[, "alpha[1]"], main = "Traceplot for alpha[1]")
+densplot(samples[, "alpha[1]"], main = "Density Plot for alpha[1]")
+
+# Beta traceplot and density
+par(mfrow = c(1, 2))
+traceplot(samples[, "beta[1]"], main = "Traceplot for beta[1]")
+densplot(samples[, "beta[1]"], main = "Density Plot for beta[1]")
+
+# Reset plot layout
+par(mfrow = c(1, 1))
+
+```
+```{r, fig.width=8, fig.height=2}
+# 1. Extract the selected parameters for ESS and ACF
+selected_params <- c("theta[1]", "alpha[1]", "beta[1]")
+
+# 2. Effective Sample Size (ESS)
+ess_subset <- effectiveSize(samples[, selected_params])
+
+ess_table <- data.frame(
+  Parameter = names(ess_subset),
+  ESS = round(as.numeric(ess_subset), 0)
+)
+
+# 3. ACF Plot (for example, for theta[1])
+# Use samples_combined, not samples
+acf_theta1 <- acf(samples_combined[, "theta[1]"], main = "ACF for theta[1]", plot = FALSE)
+
+# Then make ACF plot
+acf_plot <- ggplot(data = data.frame(lag = acf_theta1$lag, acf = acf_theta1$acf), aes(x = lag, y = acf)) +
+  geom_bar(stat = "identity", fill = "skyblue") +
+  labs(title = "ACF Plot for theta[1]", x = "Lag", y = "ACF") +
+  theme_minimal()
+
+
+# 4. Convert ESS Table into a table grob
+ess_grob <- tableGrob(ess_table)
+
+# 5. Arrange ACF plot and ESS table side-by-side
+grid.arrange(acf_plot, ess_grob, ncol = 2)
+
+```
+
+To assess convergence of the MCMC algorithm, we can use the traceplots and effective sample sizes for all monitored parameters.
+Originally, there should be 5 alpha and beta results, and 50 theta results, but I extracted one example for each parameter now.
+Three traceplots for parameters shows the stable and well-mixed behavior across chains without visible trends, indicating good mixing.
+ESS (Effective Sample Sizes) for all parameters were substantially large, ensuring reliable posterior estimation with minimal autocorrelation, and ACF plot also prove that this model is effective and converges.
+
+
+## Result
+```{r, fig.width=9, fig.height=2}
+# samples_combined has all MCMC draws
+
+# 1. Extract only theta samples
+theta_samples <- samples_combined[, grep("^theta", colnames(samples_combined))]
+
+# 2. Calculate posterior mean for each stock
+posterior_means_theta <- colMeans(theta_samples)
+
+# 3. Make a dataframe for stocks
+posterior_summary <- data.frame(
+  stockID = 1:50,
+  posterior_mean_theta = posterior_means_theta
+)
+
+# 4. Recover sector and stock number inside sector
+posterior_summary$sector <- ceiling(posterior_summary$stockID / 10)
+posterior_summary$stock <- posterior_summary$stockID - (posterior_summary$sector - 1) * 10
+
+# 5. Sector-level average posterior mean
+sector_summary_post <- posterior_summary %>%
+  group_by(sector) %>%
+  summarize(sector_mean_theta = mean(posterior_mean_theta))
+
+# slice posterior_summary to only 5 rows
+posterior_summary_preview <- posterior_summary %>%
+  slice(1:5)
+
+# Make both tables into grobs
+posterior_grob <- tableGrob(posterior_summary_preview)
+sector_grob <- tableGrob(sector_summary_post)
+
+# Arrange side-by-side
+grid.arrange(posterior_grob, sector_grob, ncol = 2)
+
+```
+Posterior mean estimates of each stock’s probability of a positive return were calculated based on the MCMC draws. The posterior means across stocks varied, with most success probabilities ranging from approximately 0.50 to 0.60. We also can see that average success probabilities by sectors are almost similar each other in the table which are near 50 percent. However, sector 1 is the most likely to have positive return than others.
+
+```{r, fig.width=8, fig.height=2}
+# 7. Identify best stock within each sector
+best_stock_each_sector <- posterior_summary %>%
+  group_by(sector) %>%
+  filter(posterior_mean_theta == max(posterior_mean_theta))
+
+# Show it as a formal table
+knitr::kable(best_stock_each_sector, caption = "Table: Best Stock Within Each Sector Based on Posterior Mean Success Rate")
+```
+
+I extract the stock that has the highest average probability of positive return for each sector. In sector 1, stock 10 has the highest average probability and so on.
+
+# Conclusion
+In this project, we modeled stock returns using a hierarchical Bayesian framework, treating individual stock returns as Bernoulli trials with sector-level Beta priors.
+Exploratory data analysis revealed meaningful differences across sectors and stocks.
+Our Bayesian model was fit using MCMC sampling, and convergence diagnostics confirmed successful convergence.
+Posterior analysis identified the sector with the highest average success probability and the most promising stock within each sector, providing insights into future investment opportunities.
+
+# Appendix
+## EDA
+```{r appendix-code-1, echo=TRUE}
+# 1. Basic table: number of 0s and 1s
+# Make the basic table
+flip_table <- table(stock$flip)
+
+# Convert it into a tidy data frame
+flip_summary <- data.frame(
+  flip = as.numeric(names(flip_table)),
+  count = as.numeric(flip_table),
+  proportion = as.numeric(flip_table) / sum(flip_table)
+)
+
+# View the summary table
+print(flip_summary)
+
+
+# 2. Mean flip (success rate) per stock
+stock_summary <- stock %>%
+  group_by(sector, stock) %>%
+  summarize(success_rate = mean(flip),
+            num_obs = n(),
+            .groups = "drop")
+
+# View the stock summary
+print(stock_summary)
+
+# 3. Mean flip (success rate) per sector
+sector_summary <- stock %>%
+  group_by(sector) %>%
+  summarize(sector_success_rate = mean(flip))
+
+# View the sector summary
+print(sector_summary)
+
+# 4. Plot: Histogram of stock success rates
+ggplot(stock_summary, aes(x = success_rate)) +
+  geom_histogram(binwidth = 0.05, boundary = 0, color = "black", fill = "skyblue") +
+  labs(title = "Histogram of Stock Success Rates",
+       x = "Success Rate (Proportion of Positive Returns)",
+       y = "Number of Stocks")
+
+# 5. Plot: Boxplot of success rates across sectors
+ggplot(stock_summary, aes(x = factor(sector), y = success_rate)) +
+  geom_boxplot(fill = "lightgreen") +
+  labs(title = "Boxplot of Stock Success Rates by Sector",
+       x = "Sector",
+       y = "Stock Success Rate") +
+  theme_minimal()
+
+```
+
+
+## Model Building
+```{r appendix-code-2, echo=TRUE}
+# Set random seed for reproducibility
+set.seed(3303)
+
+# Prepare data for JAGS
+# Reindex stocks uniquely (sector 1-5 and stock 1-10 inside)
+stock$stockID <- (stock$sector - 1) * 10 + stock$stock
+
+# Number of sectors and stocks
+n_sectors <- length(unique(stock$sector))
+n_stocks <- length(unique(stock$stockID))
+
+# Bundle data for JAGS
+jags_data <- list(
+  flip = stock$flip,
+  stockID = stock$stockID,
+  sectorID = stock$sector,
+  N = nrow(stock),
+  n_sectors = n_sectors,
+  n_stocks = n_stocks
+)
+
+# Write the model
+model_string <- "
+model {
+  for (n in 1:N) {
+    flip[n] ~ dbern(theta[stockID[n]])
+  }
+  
+  for (i in 1:n_stocks) {
+    theta[i] ~ dbeta(alpha[sectorID[i]], beta[sectorID[i]])
+  }
+  
+  for (j in 1:n_sectors) {
+    alpha[j] ~ dgamma(1, 0.1)
+    beta[j] ~ dgamma(1, 0.1)
+  }
+}
+"
+
+# Write model to temporary file
+writeLines(model_string, con = "model.bug")
+
+# Set starting values
+inits <- function() {
+  list(
+    alpha = rgamma(n_sectors, 1, 0.1),
+    beta = rgamma(n_sectors, 1, 0.1),
+    theta = rbeta(n_stocks, 1, 1)
+  )
+}
+
+# Parameters to monitor
+params <- c("theta", "alpha", "beta")
+
+# MCMC settings
+n.chains <- 3      # Number of chains
+n.iter <- 10000    # Total iterations per chain
+n.burnin <- 5000   # Burn-in
+n.thin <- 5
+
+# Run JAGS
+model <- jags.model(file = "model.bug",
+                    data = jags_data,
+                    inits = inits,
+                    n.chains = n.chains,
+                    n.adapt = 1000)
+
+update(model, n.iter = n.burnin)  # Burn-in
+
+# Draw samples
+samples <- coda.samples(model,
+                        variable.names = params,
+                        n.iter = n.iter,
+                        thin = n.thin)
+
+# Combine chains
+samples_combined <- do.call(rbind, samples)
+
+# Traceplots for selected parameters only
+selected_params <- c("theta[1]", "theta[25]", "theta[50]", "alpha[1]", "alpha[3]", "beta[1]", "beta[4]")
+
+# Traceplots
+for (param in selected_params) {
+  traceplot(samples[, param], main = paste("Traceplot for", param))
+}
+
+# Effective Sample Size (ESS) for selected parameters
+ess_subset <- effectiveSize(samples[, selected_params])
+ess_table <- data.frame(
+  Parameter = names(ess_subset),
+  ESS = round(as.numeric(ess_subset), 0)
+)
+print(ess_table)
+
+# ACF plots one by one
+for (param in selected_params) {
+  acf(samples_combined[, param], main = paste("ACF for", param))
+}
+```
+
+## Result Summary
+```{r appendix-code-3, echo=TRUE}
+# samples_combined has all MCMC draws
+
+# Extract only theta samples
+theta_samples <- samples_combined[, grep("^theta", colnames(samples_combined))]
+
+# Calculate posterior mean for each stock
+posterior_means_theta <- colMeans(theta_samples)
+
+# Make a dataframe for stocks
+posterior_summary <- data.frame(
+  stockID = 1:50,
+  posterior_mean_theta = posterior_means_theta
+)
+
+# Recover sector and stock number inside sector
+posterior_summary$sector <- ceiling(posterior_summary$stockID / 10)
+posterior_summary$stock <- posterior_summary$stockID - (posterior_summary$sector - 1) * 10
+
+# View the summary
+print(posterior_summary)
+
+# Sector-level average posterior mean
+sector_summary_post <- posterior_summary %>%
+  group_by(sector) %>%
+  summarize(sector_mean_theta = mean(posterior_mean_theta))
+
+print(sector_summary_post)
+
+# Identify best sector
+best_sector <- sector_summary_post %>%
+  filter(sector_mean_theta == max(sector_mean_theta))
+
+print(best_sector)
+
+# Identify best stock within each sector
+best_stock_each_sector <- posterior_summary %>%
+  group_by(sector) %>%
+  filter(posterior_mean_theta == max(posterior_mean_theta))
+
+print(best_stock_each_sector)
+
+```

@@ -1,0 +1,16 @@
+
+model {
+  for (n in 1:N) {
+    flip[n] ~ dbern(theta[stockID[n]])
+  }
+  
+  for (i in 1:n_stocks) {
+    theta[i] ~ dbeta(alpha[sectorID[i]], beta[sectorID[i]])
+  }
+  
+  for (j in 1:n_sectors) {
+    alpha[j] ~ dgamma(1, 0.1)
+    beta[j] ~ dgamma(1, 0.1)
+  }
+}
+
